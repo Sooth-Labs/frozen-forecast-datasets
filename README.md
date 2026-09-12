@@ -4,7 +4,7 @@ Frozen, reproducible snapshots of Sooth's panel forecast data, published as **re
 
 | Snapshot | Scope | Questions | Forecast rows |
 |---|---|---|---|
-| [`2026-09-11-external-lanes/`](2026-09-11-external-lanes/) | Kalshi + Polymarket + Sooth_QGen + QGen Calendar × external models only (no Sooth-internal lanes); resolved + leakage-cleaned | 32,656 | 644,506 |
+| [`2026-09-11-external-lanes/`](2026-09-11-external-lanes/) | Kalshi + Polymarket + Sooth_QGen + QGen Calendar × external models only (no Sooth-internal lanes, no QGen questions about venue prices); resolved + leakage-cleaned | 27,430 | 590,932 |
 
 ## Access
 
