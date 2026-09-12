@@ -1,6 +1,8 @@
-*.parquet
 *.egg-info/
 __pycache__/
 .venv/
 venv/
 .DS_Store
+# hydrate.py outputs (the committed values live under */data/values/)
+scripts/*.parquet
+scripts/*.jsonl.gz

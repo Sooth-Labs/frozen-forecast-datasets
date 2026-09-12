@@ -25,7 +25,8 @@
    "rows": 644506,
    "fires": 76904,
    "base_models": 38,
-   "lane_keys": 210
+   "lane_keys": 210,
+   "rows_without_forecast": 12939
   },
   "resolved_raw": {
    "questions": 34348,
@@ -68,6 +69,27 @@
    "sha256": "5f2a9925e9c9f51f6684af8d02c5e0238cc0f10d970fe9e8d58fb4a74de17b3e",
    "bytes": 7150512,
    "lines": 67586
+  },
+  "values/forecasts_clean_Kalshi.parquet": {
+   "sha256": "7242bbafd8c30c845962381db222434e160c8499836b78e8d0b6c74044cc473a",
+   "bytes": 18415101
+  },
+  "values/forecasts_clean_Polymarket.parquet": {
+   "sha256": "3ba153e7edd57bee58f2b3ec48fd13a34e5616a66dc035a191bf1a0a0380bf06",
+   "bytes": 12463536
+  },
+  "values/forecasts_clean_Sooth_QGen.parquet": {
+   "sha256": "b0788ca470cdc5ec95e5ddd73c87b50ef9398534fa1ff3aa7c674f4a19935e19",
+   "bytes": 9885605
+  },
+  "values/forecasts_clean_Sooth_QGen_Calendar.parquet": {
+   "sha256": "449000c146af3e6c9b6410a1e552db377a9cd514d7a256dec9481b43831687de",
+   "bytes": 3389411
   }
+ },
+ "values": {
+  "source": "scripts/hydrate.py --rows data/forecast_rows_clean.tsv.gz (values only, no --content)",
+  "hydrated_utc": "2026-09-12T00:16:00Z",
+  "rows": 644506
  }
 }

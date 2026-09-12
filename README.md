@@ -8,7 +8,7 @@ Frozen, reproducible snapshots of Sooth's panel forecast data, published as **re
 
 ## Access
 
-The row keys and question metadata in this repo are usable on their own (question text, categories, dates, resolutions, which model forecast what when). The forecasts themselves live in Bigtable:
+Each snapshot also commits the hydrated **values** (probability / PMF, cost, tokens, latency per forecast row) as parquet under `data/values/`, so scoring work needs no Bigtable access at all. The row keys and question metadata are likewise usable on their own (question text, categories, dates, resolutions, which model forecast what when). The forecasts themselves live in Bigtable:
 
 - project `data-ingestion-v1`, instance `sooth-events-database`, tables `forecast_reports_v2` (forecasts) and `forecast_questions_v2` (questions)
 - you need `roles/bigtable.reader` on that instance and Application Default Credentials (`gcloud auth application-default login`)
@@ -16,7 +16,7 @@ The row keys and question metadata in this repo are usable on their own (questio
 ```bash
 pip install -r 2026-09-11-external-lanes/scripts/requirements.txt
 cd 2026-09-11-external-lanes/scripts
-python hydrate.py --rows ../data/forecast_rows_clean.tsv.gz --out forecasts.parquet            # values only, ~4 min
+python hydrate.py --rows ../data/forecast_rows_all.tsv.gz --out forecasts_all.parquet            # values for the uncleaned/open set too, ~4 min
 python hydrate.py --rows ../data/forecast_rows_clean.tsv.gz --out sample.parquet --limit 5000 --content   # with explanations
 ```
 

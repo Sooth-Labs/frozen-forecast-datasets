@@ -43,7 +43,10 @@ Cleaning removed 1,267 leak-suspect questions (12,845 rows) and 71,519 late rows
 | `lanes.json` | 359 lanes | `external` / `internal` → `base_lane`, `display_name`, `model` (OpenRouter id), `roster_type`, `rows_total`, `spaces`, notes |
 | `lane_space_counts.json` | | every lane × space row count from the full `panel_` scan (1,736,425 rows incl. `User#`) |
 | `count_printout.txt` | | full output of `count.py` incl. the external / internal lane lists |
+| `values/forecasts_clean_{Kalshi,Polymarket,Sooth_QGen,Sooth_QGen_Calendar}.parquet` | 644,506 | hydrated values for the cleaned set (see below) |
 | `MANIFEST.json` | | snapshot timestamp, counts, sha256 of each data file |
+
+`data/values/` — **the hydrated values for the cleaned set, one parquet per space** (`forecasts_clean_<space>.parquet`, 644,506 rows, 44 MB total, produced by `hydrate.py` at snapshot time). Columns are the values-only hydrate output listed below; no explanation text. Load with `pd.read_parquet("data/values")` (pandas reads the directory). **12,939 rows (2.0%) have no forecast** — `prediction` and `forecast_value` both null: the model call failed and the panel wrote an empty row (Qwen 3.5+ 6,070, DeepSeek V4 Pro 3,518, Gemini 3.1 Pro 1,022; 89% in May–June 2026). Filter with `forecast_value.notna()` for scoring; the key lists keep them so counts match the store.
 
 `scripts/` — `hydrate.py` (pull full rows for any key list → parquet / jsonl.gz), and the rebuild recipe `dump_all_rows.py` → `fetch_meta_all.py` → `count.py` (`lanes.py` = the lane rule; expects `pool_v2_resolved.jsonl` from `gs://sooth-panel/` in the working dir; ~5 min total).
 
