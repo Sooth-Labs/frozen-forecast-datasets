@@ -1,32 +1,34 @@
 
-== ALL questions with >=1 external forecast (resolved + open): 67,710 q / 1,001,492 rows / 138,971 fires / 39 base models (211 lane keys)
+== ALL questions with >=1 external forecast (resolved + open): 62,192 q / 940,439 rows / 132,890 fires / 39 base models (211 lane keys)
    Kalshi       19,726 q (3,630 multi-outcome)   394,164 rows  45,356 fires
    Polymarket   10,055 q (297 multi-outcome)   282,993 rows  34,948 fires
-   QGen         11,696 q (1,578 multi-outcome)   226,246 rows  26,437 fires
+   QGen          6,178 q (1,578 multi-outcome)   165,193 rows  20,356 fires
    Calendar     26,233 q (10,223 multi-outcome)    98,089 rows  32,230 fires
    questions with no meta row: 124 Counter({'Calendar': 47, 'Polymarket': 40, 'QGen': 37})
 
-== RESOLVED questions, raw: 34,348 q / 728,870 rows / 90,047 fires / 38 base models (210 lane keys)
+== RESOLVED questions, raw: 29,122 q / 672,984 rows / 84,541 fires / 38 base models (210 lane keys)
    Kalshi       13,323 q (1,762 multi-outcome)   280,568 rows  33,042 fires
    Polymarket    8,228 q (22 multi-outcome)   244,528 rows  29,874 fires
-   QGen          9,202 q (8 multi-outcome)   182,228 rows  20,373 fires
+   QGen          3,976 q (8 multi-outcome)   126,342 rows  14,867 fires
    Calendar      3,595 q (1,258 multi-outcome)    21,546 rows   6,758 fires
    leak-suspect q (resolve < first fire): 1267 Counter({'Kalshi': 757, 'Polymarket': 316, 'Calendar': 114, 'QGen': 80}) rows 12845
-   late rows dropped: 71519 ; q emptied: 425
+   late rows dropped: 69207 ; q emptied: 425
 
-== RESOLVED + CLEANED (drop leak-suspect q, drop rows at/after close or resolve): 32,656 q / 644,506 rows / 76,904 fires / 38 base models (210 lane keys)
+== RESOLVED + CLEANED (drop leak-suspect q, drop rows at/after close or resolve): 27,430 q / 590,932 rows / 71,631 fires / 38 base models (210 lane keys)
    Kalshi       12,246 q (1,740 multi-outcome)   240,937 rows  26,405 fires
    Polymarket    7,828 q (22 multi-outcome)   213,060 rows  25,582 fires
-   QGen          9,111 q (8 multi-outcome)   170,210 rows  18,528 fires
+   QGen          3,885 q (8 multi-outcome)   116,636 rows  13,255 fires
    Calendar      3,471 q (1,256 multi-outcome)    20,299 rows   6,389 fires
 
    cleaned outcomes:
     Kalshi {'NO': 4763, 'YES': 5655, 'multi': 1740, 'other': 88}
     Polymarket {'NO': 4925, 'YES': 2734, 'multi': 22, 'none': 91, 'voided': 56}
-    QGen {'NO': 6944, 'YES': 2159, 'multi': 8}
+    QGen {'NO': 2250, 'YES': 1627, 'multi': 8}
     Calendar {'NO': 1138, 'YES': 1077, 'multi': 1256}
 
-   internal-lane rows excluded (same 4 spaces): 697449 {'Kalshi': 309023, 'Polymarket': 242747, 'QGen': 121875, 'Calendar': 23804}
+   market-derivative QGen questions excluded: 5,518 q / 71,456 external-lane rows
+
+   internal-lane rows excluded (same 4 spaces): 687046 {'Kalshi': 309023, 'Polymarket': 242747, 'QGen': 111472, 'Calendar': 23804}
    external lanes: 211
     ['panel_claude', 'panel_claude_code', 'panel_claude_fable_5', 'panel_claude_sonnet', 'panel_claude_sonnet_5', 'panel_claude_t10_business', 'panel_claude_t10_climate', 'panel_claude_t10_crypto', 'panel_claude_t10_economics', 'panel_claude_t10_entertainment', 'panel_claude_t10_health', 'panel_claude_t10_international', 'panel_claude_t10_politics', 'panel_claude_t10_sports', 'panel_claude_t10_technology', 'panel_claude_t1_business', 'panel_claude_t1_climate', 'panel_claude_t1_crypto', 'panel_claude_t1_economics', 'panel_claude_t1_entertainment', 'panel_claude_t1_international', 'panel_claude_t1_politics', 'panel_claude_t1_sports', 'panel_claude_t1_technology', 'panel_claude_t21_business', 'panel_claude_t21_climate', 'panel_claude_t21_crypto', 'panel_claude_t21_economics', 'panel_claude_t21_entertainment', 'panel_claude_t21_international', 'panel_claude_t21_politics', 'panel_claude_t21_sports', 'panel_claude_t21_technology', 'panel_claude_t45_crypto', 'panel_claude_t45_economics', 'panel_claude_t45_international', 'panel_claude_t45_politics', 'panel_claude_t45_sports', 'panel_claude_t45_technology', 'panel_claude_t4_business', 'panel_claude_t4_climate', 'panel_claude_t4_crypto', 'panel_claude_t4_economics', 'panel_claude_t4_entertainment', 'panel_claude_t4_international', 'panel_claude_t4_politics', 'panel_claude_t4_sports', 'panel_claude_t4_technology', 'panel_codex', 'panel_deepseek', 'panel_deepseek_0813', 'panel_deepseek_w2', 'panel_gemini', 'panel_gemini_3_6_flash', 'panel_gemini_3_7_flash', 'panel_gemini_flash', 'panel_gemini_t10_business', 'panel_gemini_t10_climate', 'panel_gemini_t10_crypto', 'panel_gemini_t10_economics', 'panel_gemini_t10_entertainment', 'panel_gemini_t10_health', 'panel_gemini_t10_international', 'panel_gemini_t10_politics', 'panel_gemini_t10_sports', 'panel_gemini_t10_technology', 'panel_gemini_t1_business', 'panel_gemini_t1_climate', 'panel_gemini_t1_crypto', 'panel_gemini_t1_economics', 'panel_gemini_t1_entertainment', 'panel_gemini_t1_international', 'panel_gemini_t1_politics', 'panel_gemini_t1_sports', 'panel_gemini_t1_technology', 'panel_gemini_t21_business', 'panel_gemini_t21_climate', 'panel_gemini_t21_crypto', 'panel_gemini_t21_economics', 'panel_gemini_t21_entertainment', 'panel_gemini_t21_international', 'panel_gemini_t21_politics', 'panel_gemini_t21_sports', 'panel_gemini_t21_technology', 'panel_gemini_t45_crypto', 'panel_gemini_t45_economics', 'panel_gemini_t45_international', 'panel_gemini_t45_politics', 'panel_gemini_t45_sports', 'panel_gemini_t45_technology', 'panel_gemini_t4_business', 'panel_gemini_t4_climate', 'panel_gemini_t4_crypto', 'panel_gemini_t4_economics', 'panel_gemini_t4_entertainment', 'panel_gemini_t4_international', 'panel_gemini_t4_politics', 'panel_gemini_t4_sports', 'panel_gemini_t4_technology', 'panel_gemini_w2', 'panel_gemma', 'panel_glm_5_2', 'panel_glm_5_3', 'panel_gpt', 'panel_gpt_5_5', 'panel_gpt_5_5_min', 'panel_gpt_5_5_w2', 'panel_gpt_5_6', 'panel_gpt_5_6_luna', 'panel_gpt_6_astra', 'panel_gpt_t10_business', 'panel_gpt_t10_climate', 'panel_gpt_t10_crypto', 'panel_gpt_t10_economics', 'panel_gpt_t10_entertainment', 'panel_gpt_t10_health', 'panel_gpt_t10_international', 'panel_gpt_t10_politics', 'panel_gpt_t10_sports', 'panel_gpt_t10_technology', 'panel_gpt_t1_business', 'panel_gpt_t1_climate', 'panel_gpt_t1_crypto', 'panel_gpt_t1_economics', 'panel_gpt_t1_entertainment', 'panel_gpt_t1_international', 'panel_gpt_t1_politics', 'panel_gpt_t1_sports', 'panel_gpt_t1_technology', 'panel_gpt_t21_business', 'panel_gpt_t21_climate', 'panel_gpt_t21_crypto', 'panel_gpt_t21_economics', 'panel_gpt_t21_entertainment', 'panel_gpt_t21_international', 'panel_gpt_t21_politics', 'panel_gpt_t21_sports', 'panel_gpt_t21_technology', 'panel_gpt_t45_crypto', 'panel_gpt_t45_economics', 'panel_gpt_t45_international', 'panel_gpt_t45_politics', 'panel_gpt_t45_sports', 'panel_gpt_t45_technology', 'panel_gpt_t4_business', 'panel_gpt_t4_climate', 'panel_gpt_t4_crypto', 'panel_gpt_t4_economics', 'panel_gpt_t4_entertainment', 'panel_gpt_t4_international', 'panel_gpt_t4_politics', 'panel_gpt_t4_sports', 'panel_gpt_t4_technology', 'panel_grok', 'panel_grok_4_5', 'panel_grok_4_6', 'panel_grok_t10_business', 'panel_grok_t10_climate', 'panel_grok_t10_crypto', 'panel_grok_t10_economics', 'panel_grok_t10_entertainment', 'panel_grok_t10_health', 'panel_grok_t10_international', 'panel_grok_t10_politics', 'panel_grok_t10_sports', 'panel_grok_t10_technology', 'panel_grok_t1_business', 'panel_grok_t1_climate', 'panel_grok_t1_crypto', 'panel_grok_t1_economics', 'panel_grok_t1_entertainment', 'panel_grok_t1_international', 'panel_grok_t1_politics', 'panel_grok_t1_sports', 'panel_grok_t1_technology', 'panel_grok_t21_business', 'panel_grok_t21_climate', 'panel_grok_t21_crypto', 'panel_grok_t21_economics', 'panel_grok_t21_entertainment', 'panel_grok_t21_international', 'panel_grok_t21_politics', 'panel_grok_t21_sports', 'panel_grok_t21_technology', 'panel_grok_t45_crypto', 'panel_grok_t45_economics', 'panel_grok_t45_international', 'panel_grok_t45_politics', 'panel_grok_t45_sports', 'panel_grok_t45_technology', 'panel_grok_t4_business', 'panel_grok_t4_climate', 'panel_grok_t4_crypto', 'panel_grok_t4_economics', 'panel_grok_t4_entertainment', 'panel_grok_t4_international', 'panel_grok_t4_politics', 'panel_grok_t4_sports', 'panel_grok_t4_technology', 'panel_grok_w2', 'panel_inkling', 'panel_kimi', 'panel_kimi_k3', 'panel_kimi_w2', 'panel_kimi_w2_noweb', 'panel_mistral_large_3', 'panel_muse_spark_1_1', 'panel_muse_spark_1_2', 'panel_qwen', 'panel_qwen_w2', 'panel_qwen_w2_noweb']
    internal lanes: 148

@@ -21,41 +21,49 @@
  ],
  "counts": {
   "clean": {
-   "questions": 32656,
-   "rows": 644506,
-   "fires": 76904,
+   "questions": 27430,
+   "rows": 590932,
+   "fires": 71631,
    "base_models": 38,
    "lane_keys": 210,
-   "rows_without_forecast": 12939
+   "rows_without_forecast": 9303
   },
   "resolved_raw": {
-   "questions": 34348,
-   "rows": 728870,
-   "fires": 90047
+   "questions": 29122,
+   "rows": 672984,
+   "fires": 84541
   },
   "all": {
-   "questions": 67710,
-   "rows": 1001492,
-   "fires": 138971,
+   "questions": 62192,
+   "rows": 940439,
+   "fires": 132890,
    "base_models": 39,
    "lane_keys": 211
   },
-  "internal_rows_excluded": 697449
+  "internal_rows_excluded": 687046,
+  "market_derivative_qgen_excluded": {
+   "questions": 5518,
+   "external_rows": 71456
+  }
  },
  "files": {
   "count_printout.txt": {
-   "sha256": "e6189249e2c8e262825cb497223b5bf0a5d90390d31db7b8c99fb0d605813e97",
-   "bytes": 12495
+   "sha256": "929a9cf11ef95aa3f1a967cb5ba8a22f056dc6941c8aea0a1ee812cba458f0a7",
+   "bytes": 12576
+  },
+  "excluded_market_derivative_questions.tsv": {
+   "sha256": "5b279e2aa99ff9532b8b54ca920c3c3759384801f1794cb0403d3fa5b138b5ed",
+   "bytes": 868053
   },
   "forecast_rows_all.tsv.gz": {
-   "sha256": "6cdf1499c99f9c939377f05d8a929dc3ca8624ca84f902185f3c600d15289f8c",
-   "bytes": 10426536,
-   "lines": 1001492
+   "sha256": "27d6406a0c837fbcbfac2c990013a3c501b9928196189d404d61df431c5663c5",
+   "bytes": 9685381,
+   "lines": 940439
   },
   "forecast_rows_clean.tsv.gz": {
-   "sha256": "1b8c201744f956f4782e1d57960532e9382bb0ca74091bd470752e46d368744b",
-   "bytes": 6514887,
-   "lines": 644506
+   "sha256": "4daf3c4c9d18c88076c93e49e618a424dd9146ac245d114fc50755d505ae640c",
+   "bytes": 5868402,
+   "lines": 590932
   },
   "lane_space_counts.json": {
    "sha256": "8b5b983dffcebda2edd0d03e54edc17ae9b6def9216ef6a071b018a71ee0c67e",
@@ -66,9 +74,9 @@
    "bytes": 98024
   },
   "questions.jsonl.gz": {
-   "sha256": "5f2a9925e9c9f51f6684af8d02c5e0238cc0f10d970fe9e8d58fb4a74de17b3e",
-   "bytes": 7150512,
-   "lines": 67586
+   "sha256": "244aa5d8e8a2f2fe767c64a8648fbfea1b3e0ae8c8a06939f06ef0ef42f04f14",
+   "bytes": 6524611,
+   "lines": 62068
   },
   "values/forecasts_clean_Kalshi.parquet": {
    "sha256": "7242bbafd8c30c845962381db222434e160c8499836b78e8d0b6c74044cc473a",
@@ -79,8 +87,8 @@
    "bytes": 12463536
   },
   "values/forecasts_clean_Sooth_QGen.parquet": {
-   "sha256": "b0788ca470cdc5ec95e5ddd73c87b50ef9398534fa1ff3aa7c674f4a19935e19",
-   "bytes": 9885605
+   "sha256": "fa53096c16a84c9a0b425d2001c5e4dc3c76717a8cee635945458255c2e9c35a",
+   "bytes": 8067932
   },
   "values/forecasts_clean_Sooth_QGen_Calendar.parquet": {
    "sha256": "449000c146af3e6c9b6410a1e552db377a9cd514d7a256dec9481b43831687de",
@@ -90,6 +98,20 @@
  "values": {
   "source": "scripts/hydrate.py --rows data/forecast_rows_clean.tsv.gz (values only, no --content)",
   "hydrated_utc": "2026-09-12T00:16:00Z",
-  "rows": 644506
- }
+  "rows": 590932
+ },
+ "revision": 2,
+ "revision_utc": "2026-09-12T02:10:00Z",
+ "revisions": [
+  {
+   "rev": 1,
+   "utc": "2026-09-11T19:05:00Z",
+   "note": "initial snapshot"
+  },
+  {
+   "rev": 2,
+   "utc": "2026-09-12T02:10:00Z",
+   "note": "removed 5,518 QGen questions that forecast a Kalshi/Polymarket price (text matches kalshi|polymarket) and their 71,456 external-lane rows; list in data/excluded_market_derivative_questions.tsv"
+  }
+ ]
 }

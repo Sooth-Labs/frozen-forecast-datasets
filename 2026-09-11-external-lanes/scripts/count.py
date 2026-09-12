@@ -19,11 +19,19 @@ pool_res={}
 for l in open(f"{SC}/pool_v2_resolved.jsonl"):
     if l.strip():
         e=json.loads(l); pool_res[e["_key"]]=e
-rows=[]; int_rows=collections.Counter(); ext_lanes=collections.Counter(); int_lanes=collections.Counter()
+# Questions removed from the snapshot (revision 2): QGen questions that forecast a Kalshi/Polymarket price
+# ("Will the Kalshi YES mid-market price for X land in the 80-90c bucket", "... YES price be >= 20c at ...").
+EXCL_Q=set()
+try:
+    with open(f"{SC}/../data/excluded_market_derivative_questions.tsv") as fh:
+        next(fh); EXCL_Q={l.split("\t",1)[0] for l in fh if l.strip()}
+except FileNotFoundError: pass
+rows=[]; int_rows=collections.Counter(); ext_lanes=collections.Counter(); int_lanes=collections.Counter(); excl_rows=0
 for line in open(f"{SC}/all_rows.tsv"):
     lane,ts,q=line.rstrip("\n").split("\t",2)
     sp=q.split("#",1)[0]
     if sp not in SPACES: continue
+    if q in EXCL_Q: excl_rows+=1; continue
     if keep(lane): rows.append((lane,pfire(ts),q)); ext_lanes[lane]+=1
     else: int_rows[SPACES[sp]]+=1; int_lanes[lane]+=1
 grp=lambda q:SPACES[q.split("#",1)[0]]
@@ -75,6 +83,7 @@ for q in cleanq:
     oc[(grp(q),k)]+=1
 print("\n   cleaned outcomes:"); 
 for g in ("Kalshi","Polymarket","QGen","Calendar"): print("   ",g,{k:v for (gg,k),v in sorted(oc.items()) if gg==g})
+print(f"\n   market-derivative QGen questions excluded: {len(EXCL_Q):,} q / {excl_rows:,} external-lane rows")
 print("\n   internal-lane rows excluded (same 4 spaces):",sum(int_rows.values()),dict(int_rows))
 print("   external lanes:",len(ext_lanes)); print("   ",sorted(ext_lanes))
 print("   internal lanes:",len(int_lanes)); print("   ",sorted(int_lanes))
