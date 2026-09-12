@@ -1,0 +1,4118 @@
+{
+ "external": {
+  "panel_claude": {
+   "base_lane": "claude",
+   "display_name": "Claude Opus 4.6",
+   "model": null,
+   "roster_type": "llm",
+   "rows_total": 9526,
+   "spaces": [
+    "Kalshi",
+    "Polymarket",
+    "Sooth_QGen",
+    "Sooth_QGen_Calendar"
+   ]
+  },
+  "panel_claude_code": {
+   "base_lane": "claude_code",
+   "display_name": "Claude Code (Sonnet 4.6)",
+   "model": null,
+   "roster_type": "cli_harness",
+   "rows_total": 6196,
+   "spaces": [
+    "Kalshi",
+    "Polymarket",
+    "Sooth_QGen"
+   ]
+  },
+  "panel_claude_fable_5": {
+   "base_lane": "claude_fable_5",
+   "display_name": "Claude Fable 5",
+   "model": null,
+   "roster_type": "llm",
+   "rows_total": 38807,
+   "spaces": [
+    "Kalshi",
+    "Polymarket",
+    "Sooth_QGen",
+    "Sooth_QGen_Calendar"
+   ]
+  },
+  "panel_claude_sonnet": {
+   "base_lane": "claude_sonnet",
+   "display_name": "Claude Sonnet 4.6",
+   "model": null,
+   "roster_type": "llm",
+   "rows_total": 41025,
+   "spaces": [
+    "Kalshi",
+    "Polymarket",
+    "Sooth_QGen",
+    "qgen"
+   ]
+  },
+  "panel_claude_sonnet_5": {
+   "base_lane": "claude_sonnet_5",
+   "display_name": "Claude Sonnet 5",
+   "model": null,
+   "roster_type": "llm",
+   "rows_total": 46702,
+   "spaces": [
+    "Kalshi",
+    "Polymarket",
+    "Sooth_QGen",
+    "Sooth_QGen_Calendar",
+    "Sooth_QGen_v2"
+   ]
+  },
+  "panel_claude_t10_business": {
+   "base_lane": "claude",
+   "display_name": "Claude Opus 4.6",
+   "model": null,
+   "roster_type": "llm",
+   "rows_total": 29,
+   "spaces": [
+    "Polymarket"
+   ],
+   "note": "horizon/category-tagged twin of base_lane (same model + prompt)"
+  },
+  "panel_claude_t10_climate": {
+   "base_lane": "claude",
+   "display_name": "Claude Opus 4.6",
+   "model": null,
+   "roster_type": "llm",
+   "rows_total": 23,
+   "spaces": [
+    "Polymarket"
+   ],
+   "note": "horizon/category-tagged twin of base_lane (same model + prompt)"
+  },
+  "panel_claude_t10_crypto": {
+   "base_lane": "claude",
+   "display_name": "Claude Opus 4.6",
+   "model": null,
+   "roster_type": "llm",
+   "rows_total": 24,
+   "spaces": [
+    "Polymarket"
+   ],
+   "note": "horizon/category-tagged twin of base_lane (same model + prompt)"
+  },
+  "panel_claude_t10_economics": {
+   "base_lane": "claude",
+   "display_name": "Claude Opus 4.6",
+   "model": null,
+   "roster_type": "llm",
+   "rows_total": 30,
+   "spaces": [
+    "Polymarket"
+   ],
+   "note": "horizon/category-tagged twin of base_lane (same model + prompt)"
+  },
+  "panel_claude_t10_entertainment": {
+   "base_lane": "claude",
+   "display_name": "Claude Opus 4.6",
+   "model": null,
+   "roster_type": "llm",
+   "rows_total": 29,
+   "spaces": [
+    "Polymarket"
+   ],
+   "note": "horizon/category-tagged twin of base_lane (same model + prompt)"
+  },
+  "panel_claude_t10_health": {
+   "base_lane": "claude",
+   "display_name": "Claude Opus 4.6",
+   "model": null,
+   "roster_type": "llm",
+   "rows_total": 8,
+   "spaces": [
+    "Polymarket"
+   ],
+   "note": "horizon/category-tagged twin of base_lane (same model + prompt)"
+  },
+  "panel_claude_t10_international": {
+   "base_lane": "claude",
+   "display_name": "Claude Opus 4.6",
+   "model": null,
+   "roster_type": "llm",
+   "rows_total": 24,
+   "spaces": [
+    "Polymarket"
+   ],
+   "note": "horizon/category-tagged twin of base_lane (same model + prompt)"
+  },
+  "panel_claude_t10_politics": {
+   "base_lane": "claude",
+   "display_name": "Claude Opus 4.6",
+   "model": null,
+   "roster_type": "llm",
+   "rows_total": 24,
+   "spaces": [
+    "Polymarket"
+   ],
+   "note": "horizon/category-tagged twin of base_lane (same model + prompt)"
+  },
+  "panel_claude_t10_sports": {
+   "base_lane": "claude",
+   "display_name": "Claude Opus 4.6",
+   "model": null,
+   "roster_type": "llm",
+   "rows_total": 20,
+   "spaces": [
+    "Polymarket"
+   ],
+   "note": "horizon/category-tagged twin of base_lane (same model + prompt)"
+  },
+  "panel_claude_t10_technology": {
+   "base_lane": "claude",
+   "display_name": "Claude Opus 4.6",
+   "model": null,
+   "roster_type": "llm",
+   "rows_total": 19,
+   "spaces": [
+    "Polymarket"
+   ],
+   "note": "horizon/category-tagged twin of base_lane (same model + prompt)"
+  },
+  "panel_claude_t1_business": {
+   "base_lane": "claude",
+   "display_name": "Claude Opus 4.6",
+   "model": null,
+   "roster_type": "llm",
+   "rows_total": 19,
+   "spaces": [
+    "Polymarket"
+   ],
+   "note": "horizon/category-tagged twin of base_lane (same model + prompt)"
+  },
+  "panel_claude_t1_climate": {
+   "base_lane": "claude",
+   "display_name": "Claude Opus 4.6",
+   "model": null,
+   "roster_type": "llm",
+   "rows_total": 10,
+   "spaces": [
+    "Polymarket"
+   ],
+   "note": "horizon/category-tagged twin of base_lane (same model + prompt)"
+  },
+  "panel_claude_t1_crypto": {
+   "base_lane": "claude",
+   "display_name": "Claude Opus 4.6",
+   "model": null,
+   "roster_type": "llm",
+   "rows_total": 10,
+   "spaces": [
+    "Polymarket"
+   ],
+   "note": "horizon/category-tagged twin of base_lane (same model + prompt)"
+  },
+  "panel_claude_t1_economics": {
+   "base_lane": "claude",
+   "display_name": "Claude Opus 4.6",
+   "model": null,
+   "roster_type": "llm",
+   "rows_total": 20,
+   "spaces": [
+    "Polymarket"
+   ],
+   "note": "horizon/category-tagged twin of base_lane (same model + prompt)"
+  },
+  "panel_claude_t1_entertainment": {
+   "base_lane": "claude",
+   "display_name": "Claude Opus 4.6",
+   "model": null,
+   "roster_type": "llm",
+   "rows_total": 24,
+   "spaces": [
+    "Polymarket"
+   ],
+   "note": "horizon/category-tagged twin of base_lane (same model + prompt)"
+  },
+  "panel_claude_t1_international": {
+   "base_lane": "claude",
+   "display_name": "Claude Opus 4.6",
+   "model": null,
+   "roster_type": "llm",
+   "rows_total": 27,
+   "spaces": [
+    "Polymarket"
+   ],
+   "note": "horizon/category-tagged twin of base_lane (same model + prompt)"
+  },
+  "panel_claude_t1_politics": {
+   "base_lane": "claude",
+   "display_name": "Claude Opus 4.6",
+   "model": null,
+   "roster_type": "llm",
+   "rows_total": 15,
+   "spaces": [
+    "Polymarket"
+   ],
+   "note": "horizon/category-tagged twin of base_lane (same model + prompt)"
+  },
+  "panel_claude_t1_sports": {
+   "base_lane": "claude",
+   "display_name": "Claude Opus 4.6",
+   "model": null,
+   "roster_type": "llm",
+   "rows_total": 17,
+   "spaces": [
+    "Polymarket"
+   ],
+   "note": "horizon/category-tagged twin of base_lane (same model + prompt)"
+  },
+  "panel_claude_t1_technology": {
+   "base_lane": "claude",
+   "display_name": "Claude Opus 4.6",
+   "model": null,
+   "roster_type": "llm",
+   "rows_total": 12,
+   "spaces": [
+    "Polymarket"
+   ],
+   "note": "horizon/category-tagged twin of base_lane (same model + prompt)"
+  },
+  "panel_claude_t21_business": {
+   "base_lane": "claude",
+   "display_name": "Claude Opus 4.6",
+   "model": null,
+   "roster_type": "llm",
+   "rows_total": 21,
+   "spaces": [
+    "Polymarket"
+   ],
+   "note": "horizon/category-tagged twin of base_lane (same model + prompt)"
+  },
+  "panel_claude_t21_climate": {
+   "base_lane": "claude",
+   "display_name": "Claude Opus 4.6",
+   "model": null,
+   "roster_type": "llm",
+   "rows_total": 15,
+   "spaces": [
+    "Polymarket"
+   ],
+   "note": "horizon/category-tagged twin of base_lane (same model + prompt)"
+  },
+  "panel_claude_t21_crypto": {
+   "base_lane": "claude",
+   "display_name": "Claude Opus 4.6",
+   "model": null,
+   "roster_type": "llm",
+   "rows_total": 30,
+   "spaces": [
+    "Polymarket"
+   ],
+   "note": "horizon/category-tagged twin of base_lane (same model + prompt)"
+  },
+  "panel_claude_t21_economics": {
+   "base_lane": "claude",
+   "display_name": "Claude Opus 4.6",
+   "model": null,
+   "roster_type": "llm",
+   "rows_total": 30,
+   "spaces": [
+    "Polymarket"
+   ],
+   "note": "horizon/category-tagged twin of base_lane (same model + prompt)"
+  },
+  "panel_claude_t21_entertainment": {
+   "base_lane": "claude",
+   "display_name": "Claude Opus 4.6",
+   "model": null,
+   "roster_type": "llm",
+   "rows_total": 30,
+   "spaces": [
+    "Polymarket"
+   ],
+   "note": "horizon/category-tagged twin of base_lane (same model + prompt)"
+  },
+  "panel_claude_t21_international": {
+   "base_lane": "claude",
+   "display_name": "Claude Opus 4.6",
+   "model": null,
+   "roster_type": "llm",
+   "rows_total": 30,
+   "spaces": [
+    "Polymarket"
+   ],
+   "note": "horizon/category-tagged twin of base_lane (same model + prompt)"
+  },
+  "panel_claude_t21_politics": {
+   "base_lane": "claude",
+   "display_name": "Claude Opus 4.6",
+   "model": null,
+   "roster_type": "llm",
+   "rows_total": 30,
+   "spaces": [
+    "Polymarket"
+   ],
+   "note": "horizon/category-tagged twin of base_lane (same model + prompt)"
+  },
+  "panel_claude_t21_sports": {
+   "base_lane": "claude",
+   "display_name": "Claude Opus 4.6",
+   "model": null,
+   "roster_type": "llm",
+   "rows_total": 30,
+   "spaces": [
+    "Polymarket"
+   ],
+   "note": "horizon/category-tagged twin of base_lane (same model + prompt)"
+  },
+  "panel_claude_t21_technology": {
+   "base_lane": "claude",
+   "display_name": "Claude Opus 4.6",
+   "model": null,
+   "roster_type": "llm",
+   "rows_total": 24,
+   "spaces": [
+    "Polymarket"
+   ],
+   "note": "horizon/category-tagged twin of base_lane (same model + prompt)"
+  },
+  "panel_claude_t45_crypto": {
+   "base_lane": "claude",
+   "display_name": "Claude Opus 4.6",
+   "model": null,
+   "roster_type": "llm",
+   "rows_total": 30,
+   "spaces": [
+    "Polymarket"
+   ],
+   "note": "horizon/category-tagged twin of base_lane (same model + prompt)"
+  },
+  "panel_claude_t45_economics": {
+   "base_lane": "claude",
+   "display_name": "Claude Opus 4.6",
+   "model": null,
+   "roster_type": "llm",
+   "rows_total": 28,
+   "spaces": [
+    "Polymarket"
+   ],
+   "note": "horizon/category-tagged twin of base_lane (same model + prompt)"
+  },
+  "panel_claude_t45_international": {
+   "base_lane": "claude",
+   "display_name": "Claude Opus 4.6",
+   "model": null,
+   "roster_type": "llm",
+   "rows_total": 26,
+   "spaces": [
+    "Polymarket"
+   ],
+   "note": "horizon/category-tagged twin of base_lane (same model + prompt)"
+  },
+  "panel_claude_t45_politics": {
+   "base_lane": "claude",
+   "display_name": "Claude Opus 4.6",
+   "model": null,
+   "roster_type": "llm",
+   "rows_total": 30,
+   "spaces": [
+    "Polymarket"
+   ],
+   "note": "horizon/category-tagged twin of base_lane (same model + prompt)"
+  },
+  "panel_claude_t45_sports": {
+   "base_lane": "claude",
+   "display_name": "Claude Opus 4.6",
+   "model": null,
+   "roster_type": "llm",
+   "rows_total": 26,
+   "spaces": [
+    "Polymarket"
+   ],
+   "note": "horizon/category-tagged twin of base_lane (same model + prompt)"
+  },
+  "panel_claude_t45_technology": {
+   "base_lane": "claude",
+   "display_name": "Claude Opus 4.6",
+   "model": null,
+   "roster_type": "llm",
+   "rows_total": 30,
+   "spaces": [
+    "Polymarket"
+   ],
+   "note": "horizon/category-tagged twin of base_lane (same model + prompt)"
+  },
+  "panel_claude_t4_business": {
+   "base_lane": "claude",
+   "display_name": "Claude Opus 4.6",
+   "model": null,
+   "roster_type": "llm",
+   "rows_total": 16,
+   "spaces": [
+    "Polymarket"
+   ],
+   "note": "horizon/category-tagged twin of base_lane (same model + prompt)"
+  },
+  "panel_claude_t4_climate": {
+   "base_lane": "claude",
+   "display_name": "Claude Opus 4.6",
+   "model": null,
+   "roster_type": "llm",
+   "rows_total": 14,
+   "spaces": [
+    "Polymarket"
+   ],
+   "note": "horizon/category-tagged twin of base_lane (same model + prompt)"
+  },
+  "panel_claude_t4_crypto": {
+   "base_lane": "claude",
+   "display_name": "Claude Opus 4.6",
+   "model": null,
+   "roster_type": "llm",
+   "rows_total": 16,
+   "spaces": [
+    "Polymarket"
+   ],
+   "note": "horizon/category-tagged twin of base_lane (same model + prompt)"
+  },
+  "panel_claude_t4_economics": {
+   "base_lane": "claude",
+   "display_name": "Claude Opus 4.6",
+   "model": null,
+   "roster_type": "llm",
+   "rows_total": 29,
+   "spaces": [
+    "Polymarket"
+   ],
+   "note": "horizon/category-tagged twin of base_lane (same model + prompt)"
+  },
+  "panel_claude_t4_entertainment": {
+   "base_lane": "claude",
+   "display_name": "Claude Opus 4.6",
+   "model": null,
+   "roster_type": "llm",
+   "rows_total": 13,
+   "spaces": [
+    "Polymarket"
+   ],
+   "note": "horizon/category-tagged twin of base_lane (same model + prompt)"
+  },
+  "panel_claude_t4_international": {
+   "base_lane": "claude",
+   "display_name": "Claude Opus 4.6",
+   "model": null,
+   "roster_type": "llm",
+   "rows_total": 25,
+   "spaces": [
+    "Polymarket"
+   ],
+   "note": "horizon/category-tagged twin of base_lane (same model + prompt)"
+  },
+  "panel_claude_t4_politics": {
+   "base_lane": "claude",
+   "display_name": "Claude Opus 4.6",
+   "model": null,
+   "roster_type": "llm",
+   "rows_total": 24,
+   "spaces": [
+    "Polymarket"
+   ],
+   "note": "horizon/category-tagged twin of base_lane (same model + prompt)"
+  },
+  "panel_claude_t4_sports": {
+   "base_lane": "claude",
+   "display_name": "Claude Opus 4.6",
+   "model": null,
+   "roster_type": "llm",
+   "rows_total": 22,
+   "spaces": [
+    "Polymarket"
+   ],
+   "note": "horizon/category-tagged twin of base_lane (same model + prompt)"
+  },
+  "panel_claude_t4_technology": {
+   "base_lane": "claude",
+   "display_name": "Claude Opus 4.6",
+   "model": null,
+   "roster_type": "llm",
+   "rows_total": 14,
+   "spaces": [
+    "Polymarket"
+   ],
+   "note": "horizon/category-tagged twin of base_lane (same model + prompt)"
+  },
+  "panel_codex": {
+   "base_lane": "codex",
+   "display_name": "Codex (GPT-5.5)",
+   "model": null,
+   "roster_type": "cli_harness",
+   "rows_total": 5112,
+   "spaces": [
+    "Kalshi",
+    "Polymarket",
+    "Sooth_QGen"
+   ]
+  },
+  "panel_deepseek": {
+   "base_lane": "deepseek",
+   "display_name": "DeepSeek V4 Pro",
+   "model": null,
+   "roster_type": "llm",
+   "rows_total": 13959,
+   "spaces": [
+    "Kalshi",
+    "Polymarket",
+    "Sooth_QGen",
+    "Sooth_QGen_Calendar",
+    "qgen"
+   ]
+  },
+  "panel_deepseek_0813": {
+   "base_lane": "deepseek_0813",
+   "display_name": "DeepSeek V4 Pro 0813",
+   "model": null,
+   "roster_type": "llm",
+   "rows_total": 28765,
+   "spaces": [
+    "Kalshi",
+    "Polymarket",
+    "Sooth_QGen"
+   ]
+  },
+  "panel_deepseek_w2": {
+   "base_lane": "deepseek_w2",
+   "display_name": "Ensemble: DeepSeek V4 Pro",
+   "model": null,
+   "roster_type": "llm",
+   "rows_total": 9481,
+   "spaces": [
+    "Kalshi",
+    "Polymarket",
+    "Sooth_QGen",
+    "qgen"
+   ],
+   "note": "wave-2 deliberation twin (sees wave-1 forecasts)"
+  },
+  "panel_gemini": {
+   "base_lane": "gemini",
+   "display_name": "Gemini 3.1 Pro Preview",
+   "model": null,
+   "roster_type": "llm",
+   "rows_total": 106378,
+   "spaces": [
+    "Kalshi",
+    "Polymarket",
+    "Sooth_QGen",
+    "Sooth_QGen_Calendar",
+    "Sooth_QGen_v2",
+    "qgen"
+   ]
+  },
+  "panel_gemini_3_6_flash": {
+   "base_lane": "gemini_3_6_flash",
+   "display_name": "Gemini 3.6 Flash",
+   "model": null,
+   "roster_type": "llm",
+   "rows_total": 42291,
+   "spaces": [
+    "Kalshi",
+    "Polymarket",
+    "Sooth_QGen",
+    "Sooth_QGen_Calendar",
+    "Sooth_QGen_v2"
+   ]
+  },
+  "panel_gemini_3_7_flash": {
+   "base_lane": "gemini_3_7_flash",
+   "display_name": "Gemini 3.7 Flash",
+   "model": null,
+   "roster_type": "llm",
+   "rows_total": 62674,
+   "spaces": [
+    "Kalshi",
+    "Polymarket",
+    "Sooth_QGen",
+    "Sooth_QGen_Calendar"
+   ]
+  },
+  "panel_gemini_flash": {
+   "base_lane": "gemini_flash",
+   "display_name": "Gemini 3.5 Flash",
+   "model": null,
+   "roster_type": "llm",
+   "rows_total": 3881,
+   "spaces": [
+    "Kalshi",
+    "Polymarket",
+    "Sooth_QGen"
+   ]
+  },
+  "panel_gemini_t10_business": {
+   "base_lane": "gemini",
+   "display_name": "Gemini 3.1 Pro Preview",
+   "model": null,
+   "roster_type": "llm",
+   "rows_total": 29,
+   "spaces": [
+    "Polymarket"
+   ],
+   "note": "horizon/category-tagged twin of base_lane (same model + prompt)"
+  },
+  "panel_gemini_t10_climate": {
+   "base_lane": "gemini",
+   "display_name": "Gemini 3.1 Pro Preview",
+   "model": null,
+   "roster_type": "llm",
+   "rows_total": 23,
+   "spaces": [
+    "Polymarket"
+   ],
+   "note": "horizon/category-tagged twin of base_lane (same model + prompt)"
+  },
+  "panel_gemini_t10_crypto": {
+   "base_lane": "gemini",
+   "display_name": "Gemini 3.1 Pro Preview",
+   "model": null,
+   "roster_type": "llm",
+   "rows_total": 24,
+   "spaces": [
+    "Polymarket"
+   ],
+   "note": "horizon/category-tagged twin of base_lane (same model + prompt)"
+  },
+  "panel_gemini_t10_economics": {
+   "base_lane": "gemini",
+   "display_name": "Gemini 3.1 Pro Preview",
+   "model": null,
+   "roster_type": "llm",
+   "rows_total": 30,
+   "spaces": [
+    "Polymarket"
+   ],
+   "note": "horizon/category-tagged twin of base_lane (same model + prompt)"
+  },
+  "panel_gemini_t10_entertainment": {
+   "base_lane": "gemini",
+   "display_name": "Gemini 3.1 Pro Preview",
+   "model": null,
+   "roster_type": "llm",
+   "rows_total": 29,
+   "spaces": [
+    "Polymarket"
+   ],
+   "note": "horizon/category-tagged twin of base_lane (same model + prompt)"
+  },
+  "panel_gemini_t10_health": {
+   "base_lane": "gemini",
+   "display_name": "Gemini 3.1 Pro Preview",
+   "model": null,
+   "roster_type": "llm",
+   "rows_total": 8,
+   "spaces": [
+    "Polymarket"
+   ],
+   "note": "horizon/category-tagged twin of base_lane (same model + prompt)"
+  },
+  "panel_gemini_t10_international": {
+   "base_lane": "gemini",
+   "display_name": "Gemini 3.1 Pro Preview",
+   "model": null,
+   "roster_type": "llm",
+   "rows_total": 23,
+   "spaces": [
+    "Polymarket"
+   ],
+   "note": "horizon/category-tagged twin of base_lane (same model + prompt)"
+  },
+  "panel_gemini_t10_politics": {
+   "base_lane": "gemini",
+   "display_name": "Gemini 3.1 Pro Preview",
+   "model": null,
+   "roster_type": "llm",
+   "rows_total": 24,
+   "spaces": [
+    "Polymarket"
+   ],
+   "note": "horizon/category-tagged twin of base_lane (same model + prompt)"
+  },
+  "panel_gemini_t10_sports": {
+   "base_lane": "gemini",
+   "display_name": "Gemini 3.1 Pro Preview",
+   "model": null,
+   "roster_type": "llm",
+   "rows_total": 20,
+   "spaces": [
+    "Polymarket"
+   ],
+   "note": "horizon/category-tagged twin of base_lane (same model + prompt)"
+  },
+  "panel_gemini_t10_technology": {
+   "base_lane": "gemini",
+   "display_name": "Gemini 3.1 Pro Preview",
+   "model": null,
+   "roster_type": "llm",
+   "rows_total": 17,
+   "spaces": [
+    "Polymarket"
+   ],
+   "note": "horizon/category-tagged twin of base_lane (same model + prompt)"
+  },
+  "panel_gemini_t1_business": {
+   "base_lane": "gemini",
+   "display_name": "Gemini 3.1 Pro Preview",
+   "model": null,
+   "roster_type": "llm",
+   "rows_total": 19,
+   "spaces": [
+    "Polymarket"
+   ],
+   "note": "horizon/category-tagged twin of base_lane (same model + prompt)"
+  },
+  "panel_gemini_t1_climate": {
+   "base_lane": "gemini",
+   "display_name": "Gemini 3.1 Pro Preview",
+   "model": null,
+   "roster_type": "llm",
+   "rows_total": 7,
+   "spaces": [
+    "Polymarket"
+   ],
+   "note": "horizon/category-tagged twin of base_lane (same model + prompt)"
+  },
+  "panel_gemini_t1_crypto": {
+   "base_lane": "gemini",
+   "display_name": "Gemini 3.1 Pro Preview",
+   "model": null,
+   "roster_type": "llm",
+   "rows_total": 10,
+   "spaces": [
+    "Polymarket"
+   ],
+   "note": "horizon/category-tagged twin of base_lane (same model + prompt)"
+  },
+  "panel_gemini_t1_economics": {
+   "base_lane": "gemini",
+   "display_name": "Gemini 3.1 Pro Preview",
+   "model": null,
+   "roster_type": "llm",
+   "rows_total": 20,
+   "spaces": [
+    "Polymarket"
+   ],
+   "note": "horizon/category-tagged twin of base_lane (same model + prompt)"
+  },
+  "panel_gemini_t1_entertainment": {
+   "base_lane": "gemini",
+   "display_name": "Gemini 3.1 Pro Preview",
+   "model": null,
+   "roster_type": "llm",
+   "rows_total": 19,
+   "spaces": [
+    "Polymarket"
+   ],
+   "note": "horizon/category-tagged twin of base_lane (same model + prompt)"
+  },
+  "panel_gemini_t1_international": {
+   "base_lane": "gemini",
+   "display_name": "Gemini 3.1 Pro Preview",
+   "model": null,
+   "roster_type": "llm",
+   "rows_total": 25,
+   "spaces": [
+    "Polymarket"
+   ],
+   "note": "horizon/category-tagged twin of base_lane (same model + prompt)"
+  },
+  "panel_gemini_t1_politics": {
+   "base_lane": "gemini",
+   "display_name": "Gemini 3.1 Pro Preview",
+   "model": null,
+   "roster_type": "llm",
+   "rows_total": 15,
+   "spaces": [
+    "Polymarket"
+   ],
+   "note": "horizon/category-tagged twin of base_lane (same model + prompt)"
+  },
+  "panel_gemini_t1_sports": {
+   "base_lane": "gemini",
+   "display_name": "Gemini 3.1 Pro Preview",
+   "model": null,
+   "roster_type": "llm",
+   "rows_total": 17,
+   "spaces": [
+    "Polymarket"
+   ],
+   "note": "horizon/category-tagged twin of base_lane (same model + prompt)"
+  },
+  "panel_gemini_t1_technology": {
+   "base_lane": "gemini",
+   "display_name": "Gemini 3.1 Pro Preview",
+   "model": null,
+   "roster_type": "llm",
+   "rows_total": 12,
+   "spaces": [
+    "Polymarket"
+   ],
+   "note": "horizon/category-tagged twin of base_lane (same model + prompt)"
+  },
+  "panel_gemini_t21_business": {
+   "base_lane": "gemini",
+   "display_name": "Gemini 3.1 Pro Preview",
+   "model": null,
+   "roster_type": "llm",
+   "rows_total": 21,
+   "spaces": [
+    "Polymarket"
+   ],
+   "note": "horizon/category-tagged twin of base_lane (same model + prompt)"
+  },
+  "panel_gemini_t21_climate": {
+   "base_lane": "gemini",
+   "display_name": "Gemini 3.1 Pro Preview",
+   "model": null,
+   "roster_type": "llm",
+   "rows_total": 15,
+   "spaces": [
+    "Polymarket"
+   ],
+   "note": "horizon/category-tagged twin of base_lane (same model + prompt)"
+  },
+  "panel_gemini_t21_crypto": {
+   "base_lane": "gemini",
+   "display_name": "Gemini 3.1 Pro Preview",
+   "model": null,
+   "roster_type": "llm",
+   "rows_total": 30,
+   "spaces": [
+    "Polymarket"
+   ],
+   "note": "horizon/category-tagged twin of base_lane (same model + prompt)"
+  },
+  "panel_gemini_t21_economics": {
+   "base_lane": "gemini",
+   "display_name": "Gemini 3.1 Pro Preview",
+   "model": null,
+   "roster_type": "llm",
+   "rows_total": 30,
+   "spaces": [
+    "Polymarket"
+   ],
+   "note": "horizon/category-tagged twin of base_lane (same model + prompt)"
+  },
+  "panel_gemini_t21_entertainment": {
+   "base_lane": "gemini",
+   "display_name": "Gemini 3.1 Pro Preview",
+   "model": null,
+   "roster_type": "llm",
+   "rows_total": 30,
+   "spaces": [
+    "Polymarket"
+   ],
+   "note": "horizon/category-tagged twin of base_lane (same model + prompt)"
+  },
+  "panel_gemini_t21_international": {
+   "base_lane": "gemini",
+   "display_name": "Gemini 3.1 Pro Preview",
+   "model": null,
+   "roster_type": "llm",
+   "rows_total": 30,
+   "spaces": [
+    "Polymarket"
+   ],
+   "note": "horizon/category-tagged twin of base_lane (same model + prompt)"
+  },
+  "panel_gemini_t21_politics": {
+   "base_lane": "gemini",
+   "display_name": "Gemini 3.1 Pro Preview",
+   "model": null,
+   "roster_type": "llm",
+   "rows_total": 30,
+   "spaces": [
+    "Polymarket"
+   ],
+   "note": "horizon/category-tagged twin of base_lane (same model + prompt)"
+  },
+  "panel_gemini_t21_sports": {
+   "base_lane": "gemini",
+   "display_name": "Gemini 3.1 Pro Preview",
+   "model": null,
+   "roster_type": "llm",
+   "rows_total": 30,
+   "spaces": [
+    "Polymarket"
+   ],
+   "note": "horizon/category-tagged twin of base_lane (same model + prompt)"
+  },
+  "panel_gemini_t21_technology": {
+   "base_lane": "gemini",
+   "display_name": "Gemini 3.1 Pro Preview",
+   "model": null,
+   "roster_type": "llm",
+   "rows_total": 24,
+   "spaces": [
+    "Polymarket"
+   ],
+   "note": "horizon/category-tagged twin of base_lane (same model + prompt)"
+  },
+  "panel_gemini_t45_crypto": {
+   "base_lane": "gemini",
+   "display_name": "Gemini 3.1 Pro Preview",
+   "model": null,
+   "roster_type": "llm",
+   "rows_total": 29,
+   "spaces": [
+    "Polymarket"
+   ],
+   "note": "horizon/category-tagged twin of base_lane (same model + prompt)"
+  },
+  "panel_gemini_t45_economics": {
+   "base_lane": "gemini",
+   "display_name": "Gemini 3.1 Pro Preview",
+   "model": null,
+   "roster_type": "llm",
+   "rows_total": 24,
+   "spaces": [
+    "Polymarket"
+   ],
+   "note": "horizon/category-tagged twin of base_lane (same model + prompt)"
+  },
+  "panel_gemini_t45_international": {
+   "base_lane": "gemini",
+   "display_name": "Gemini 3.1 Pro Preview",
+   "model": null,
+   "roster_type": "llm",
+   "rows_total": 26,
+   "spaces": [
+    "Polymarket"
+   ],
+   "note": "horizon/category-tagged twin of base_lane (same model + prompt)"
+  },
+  "panel_gemini_t45_politics": {
+   "base_lane": "gemini",
+   "display_name": "Gemini 3.1 Pro Preview",
+   "model": null,
+   "roster_type": "llm",
+   "rows_total": 30,
+   "spaces": [
+    "Polymarket"
+   ],
+   "note": "horizon/category-tagged twin of base_lane (same model + prompt)"
+  },
+  "panel_gemini_t45_sports": {
+   "base_lane": "gemini",
+   "display_name": "Gemini 3.1 Pro Preview",
+   "model": null,
+   "roster_type": "llm",
+   "rows_total": 25,
+   "spaces": [
+    "Polymarket"
+   ],
+   "note": "horizon/category-tagged twin of base_lane (same model + prompt)"
+  },
+  "panel_gemini_t45_technology": {
+   "base_lane": "gemini",
+   "display_name": "Gemini 3.1 Pro Preview",
+   "model": null,
+   "roster_type": "llm",
+   "rows_total": 30,
+   "spaces": [
+    "Polymarket"
+   ],
+   "note": "horizon/category-tagged twin of base_lane (same model + prompt)"
+  },
+  "panel_gemini_t4_business": {
+   "base_lane": "gemini",
+   "display_name": "Gemini 3.1 Pro Preview",
+   "model": null,
+   "roster_type": "llm",
+   "rows_total": 16,
+   "spaces": [
+    "Polymarket"
+   ],
+   "note": "horizon/category-tagged twin of base_lane (same model + prompt)"
+  },
+  "panel_gemini_t4_climate": {
+   "base_lane": "gemini",
+   "display_name": "Gemini 3.1 Pro Preview",
+   "model": null,
+   "roster_type": "llm",
+   "rows_total": 14,
+   "spaces": [
+    "Polymarket"
+   ],
+   "note": "horizon/category-tagged twin of base_lane (same model + prompt)"
+  },
+  "panel_gemini_t4_crypto": {
+   "base_lane": "gemini",
+   "display_name": "Gemini 3.1 Pro Preview",
+   "model": null,
+   "roster_type": "llm",
+   "rows_total": 16,
+   "spaces": [
+    "Polymarket"
+   ],
+   "note": "horizon/category-tagged twin of base_lane (same model + prompt)"
+  },
+  "panel_gemini_t4_economics": {
+   "base_lane": "gemini",
+   "display_name": "Gemini 3.1 Pro Preview",
+   "model": null,
+   "roster_type": "llm",
+   "rows_total": 29,
+   "spaces": [
+    "Polymarket"
+   ],
+   "note": "horizon/category-tagged twin of base_lane (same model + prompt)"
+  },
+  "panel_gemini_t4_entertainment": {
+   "base_lane": "gemini",
+   "display_name": "Gemini 3.1 Pro Preview",
+   "model": null,
+   "roster_type": "llm",
+   "rows_total": 10,
+   "spaces": [
+    "Polymarket"
+   ],
+   "note": "horizon/category-tagged twin of base_lane (same model + prompt)"
+  },
+  "panel_gemini_t4_international": {
+   "base_lane": "gemini",
+   "display_name": "Gemini 3.1 Pro Preview",
+   "model": null,
+   "roster_type": "llm",
+   "rows_total": 23,
+   "spaces": [
+    "Polymarket"
+   ],
+   "note": "horizon/category-tagged twin of base_lane (same model + prompt)"
+  },
+  "panel_gemini_t4_politics": {
+   "base_lane": "gemini",
+   "display_name": "Gemini 3.1 Pro Preview",
+   "model": null,
+   "roster_type": "llm",
+   "rows_total": 22,
+   "spaces": [
+    "Polymarket"
+   ],
+   "note": "horizon/category-tagged twin of base_lane (same model + prompt)"
+  },
+  "panel_gemini_t4_sports": {
+   "base_lane": "gemini",
+   "display_name": "Gemini 3.1 Pro Preview",
+   "model": null,
+   "roster_type": "llm",
+   "rows_total": 20,
+   "spaces": [
+    "Polymarket"
+   ],
+   "note": "horizon/category-tagged twin of base_lane (same model + prompt)"
+  },
+  "panel_gemini_t4_technology": {
+   "base_lane": "gemini",
+   "display_name": "Gemini 3.1 Pro Preview",
+   "model": null,
+   "roster_type": "llm",
+   "rows_total": 12,
+   "spaces": [
+    "Polymarket"
+   ],
+   "note": "horizon/category-tagged twin of base_lane (same model + prompt)"
+  },
+  "panel_gemini_w2": {
+   "base_lane": "gemini_w2",
+   "display_name": "Ensemble: Gemini 3.1 Pro Preview",
+   "model": null,
+   "roster_type": "llm",
+   "rows_total": 22623,
+   "spaces": [
+    "Kalshi",
+    "Polymarket",
+    "Sooth_QGen",
+    "qgen"
+   ],
+   "note": "wave-2 deliberation twin (sees wave-1 forecasts)"
+  },
+  "panel_gemma": {
+   "base_lane": "gemma",
+   "display_name": "Gemma 4 31B",
+   "model": null,
+   "roster_type": "llm",
+   "rows_total": 24858,
+   "spaces": [
+    "Kalshi",
+    "Polymarket",
+    "Sooth_QGen"
+   ]
+  },
+  "panel_glm_5_2": {
+   "base_lane": "glm_5_2",
+   "display_name": "GLM 5.2",
+   "model": null,
+   "roster_type": "llm",
+   "rows_total": 32007,
+   "spaces": [
+    "Kalshi",
+    "Polymarket",
+    "Sooth_QGen",
+    "Sooth_QGen_Calendar"
+   ]
+  },
+  "panel_glm_5_3": {
+   "base_lane": "glm_5_3",
+   "display_name": "GLM 5.3",
+   "model": null,
+   "roster_type": "llm",
+   "rows_total": 2014,
+   "spaces": [
+    "Kalshi",
+    "Polymarket",
+    "Sooth_QGen"
+   ]
+  },
+  "panel_gpt": {
+   "base_lane": "gpt",
+   "display_name": "GPT 5.4",
+   "model": null,
+   "roster_type": "llm",
+   "rows_total": 52607,
+   "spaces": [
+    "Kalshi",
+    "Polymarket",
+    "Sooth_QGen",
+    "Sooth_QGen_Calendar",
+    "qgen"
+   ]
+  },
+  "panel_gpt_5_5": {
+   "base_lane": "gpt_5_5",
+   "display_name": "GPT 5.5",
+   "model": null,
+   "roster_type": "llm",
+   "rows_total": 61280,
+   "spaces": [
+    "Kalshi",
+    "Polymarket",
+    "Sooth_QGen",
+    "Sooth_QGen_Calendar",
+    "Sooth_QGen_v2"
+   ]
+  },
+  "panel_gpt_5_5_min": {
+   "base_lane": "gpt_5_5_min",
+   "display_name": "GPT 5.5 (min prompt)",
+   "model": null,
+   "roster_type": "llm",
+   "rows_total": 13032,
+   "spaces": [
+    "Kalshi",
+    "Polymarket",
+    "Sooth_QGen"
+   ]
+  },
+  "panel_gpt_5_5_w2": {
+   "base_lane": "gpt_5_5_w2",
+   "display_name": "Ensemble: GPT 5.5",
+   "model": null,
+   "roster_type": "llm",
+   "rows_total": 12726,
+   "spaces": [
+    "Kalshi",
+    "Polymarket",
+    "Sooth_QGen"
+   ],
+   "note": "wave-2 deliberation twin (sees wave-1 forecasts)"
+  },
+  "panel_gpt_5_6": {
+   "base_lane": "gpt_5_6",
+   "display_name": "GPT 5.6 Sol",
+   "model": null,
+   "roster_type": "llm",
+   "rows_total": 46309,
+   "spaces": [
+    "Kalshi",
+    "Polymarket",
+    "Sooth_QGen",
+    "Sooth_QGen_Calendar",
+    "Sooth_QGen_v2"
+   ]
+  },
+  "panel_gpt_5_6_luna": {
+   "base_lane": "gpt_5_6_luna",
+   "display_name": "GPT 5.6 Luna",
+   "model": null,
+   "roster_type": "llm",
+   "rows_total": 33260,
+   "spaces": [
+    "Sooth_QGen",
+    "Sooth_QGen_Calendar"
+   ]
+  },
+  "panel_gpt_6_astra": {
+   "base_lane": "gpt_6_astra",
+   "display_name": "GPT 6 Astra",
+   "model": null,
+   "roster_type": "llm",
+   "rows_total": 1683,
+   "spaces": [
+    "Kalshi",
+    "Polymarket",
+    "Sooth_QGen"
+   ]
+  },
+  "panel_gpt_t10_business": {
+   "base_lane": "gpt",
+   "display_name": "GPT 5.4",
+   "model": null,
+   "roster_type": "llm",
+   "rows_total": 29,
+   "spaces": [
+    "Polymarket"
+   ],
+   "note": "horizon/category-tagged twin of base_lane (same model + prompt)"
+  },
+  "panel_gpt_t10_climate": {
+   "base_lane": "gpt",
+   "display_name": "GPT 5.4",
+   "model": null,
+   "roster_type": "llm",
+   "rows_total": 23,
+   "spaces": [
+    "Polymarket"
+   ],
+   "note": "horizon/category-tagged twin of base_lane (same model + prompt)"
+  },
+  "panel_gpt_t10_crypto": {
+   "base_lane": "gpt",
+   "display_name": "GPT 5.4",
+   "model": null,
+   "roster_type": "llm",
+   "rows_total": 24,
+   "spaces": [
+    "Polymarket"
+   ],
+   "note": "horizon/category-tagged twin of base_lane (same model + prompt)"
+  },
+  "panel_gpt_t10_economics": {
+   "base_lane": "gpt",
+   "display_name": "GPT 5.4",
+   "model": null,
+   "roster_type": "llm",
+   "rows_total": 30,
+   "spaces": [
+    "Polymarket"
+   ],
+   "note": "horizon/category-tagged twin of base_lane (same model + prompt)"
+  },
+  "panel_gpt_t10_entertainment": {
+   "base_lane": "gpt",
+   "display_name": "GPT 5.4",
+   "model": null,
+   "roster_type": "llm",
+   "rows_total": 29,
+   "spaces": [
+    "Polymarket"
+   ],
+   "note": "horizon/category-tagged twin of base_lane (same model + prompt)"
+  },
+  "panel_gpt_t10_health": {
+   "base_lane": "gpt",
+   "display_name": "GPT 5.4",
+   "model": null,
+   "roster_type": "llm",
+   "rows_total": 8,
+   "spaces": [
+    "Polymarket"
+   ],
+   "note": "horizon/category-tagged twin of base_lane (same model + prompt)"
+  },
+  "panel_gpt_t10_international": {
+   "base_lane": "gpt",
+   "display_name": "GPT 5.4",
+   "model": null,
+   "roster_type": "llm",
+   "rows_total": 24,
+   "spaces": [
+    "Polymarket"
+   ],
+   "note": "horizon/category-tagged twin of base_lane (same model + prompt)"
+  },
+  "panel_gpt_t10_politics": {
+   "base_lane": "gpt",
+   "display_name": "GPT 5.4",
+   "model": null,
+   "roster_type": "llm",
+   "rows_total": 24,
+   "spaces": [
+    "Polymarket"
+   ],
+   "note": "horizon/category-tagged twin of base_lane (same model + prompt)"
+  },
+  "panel_gpt_t10_sports": {
+   "base_lane": "gpt",
+   "display_name": "GPT 5.4",
+   "model": null,
+   "roster_type": "llm",
+   "rows_total": 20,
+   "spaces": [
+    "Polymarket"
+   ],
+   "note": "horizon/category-tagged twin of base_lane (same model + prompt)"
+  },
+  "panel_gpt_t10_technology": {
+   "base_lane": "gpt",
+   "display_name": "GPT 5.4",
+   "model": null,
+   "roster_type": "llm",
+   "rows_total": 19,
+   "spaces": [
+    "Polymarket"
+   ],
+   "note": "horizon/category-tagged twin of base_lane (same model + prompt)"
+  },
+  "panel_gpt_t1_business": {
+   "base_lane": "gpt",
+   "display_name": "GPT 5.4",
+   "model": null,
+   "roster_type": "llm",
+   "rows_total": 19,
+   "spaces": [
+    "Polymarket"
+   ],
+   "note": "horizon/category-tagged twin of base_lane (same model + prompt)"
+  },
+  "panel_gpt_t1_climate": {
+   "base_lane": "gpt",
+   "display_name": "GPT 5.4",
+   "model": null,
+   "roster_type": "llm",
+   "rows_total": 10,
+   "spaces": [
+    "Polymarket"
+   ],
+   "note": "horizon/category-tagged twin of base_lane (same model + prompt)"
+  },
+  "panel_gpt_t1_crypto": {
+   "base_lane": "gpt",
+   "display_name": "GPT 5.4",
+   "model": null,
+   "roster_type": "llm",
+   "rows_total": 10,
+   "spaces": [
+    "Polymarket"
+   ],
+   "note": "horizon/category-tagged twin of base_lane (same model + prompt)"
+  },
+  "panel_gpt_t1_economics": {
+   "base_lane": "gpt",
+   "display_name": "GPT 5.4",
+   "model": null,
+   "roster_type": "llm",
+   "rows_total": 20,
+   "spaces": [
+    "Polymarket"
+   ],
+   "note": "horizon/category-tagged twin of base_lane (same model + prompt)"
+  },
+  "panel_gpt_t1_entertainment": {
+   "base_lane": "gpt",
+   "display_name": "GPT 5.4",
+   "model": null,
+   "roster_type": "llm",
+   "rows_total": 24,
+   "spaces": [
+    "Polymarket"
+   ],
+   "note": "horizon/category-tagged twin of base_lane (same model + prompt)"
+  },
+  "panel_gpt_t1_international": {
+   "base_lane": "gpt",
+   "display_name": "GPT 5.4",
+   "model": null,
+   "roster_type": "llm",
+   "rows_total": 27,
+   "spaces": [
+    "Polymarket"
+   ],
+   "note": "horizon/category-tagged twin of base_lane (same model + prompt)"
+  },
+  "panel_gpt_t1_politics": {
+   "base_lane": "gpt",
+   "display_name": "GPT 5.4",
+   "model": null,
+   "roster_type": "llm",
+   "rows_total": 15,
+   "spaces": [
+    "Polymarket"
+   ],
+   "note": "horizon/category-tagged twin of base_lane (same model + prompt)"
+  },
+  "panel_gpt_t1_sports": {
+   "base_lane": "gpt",
+   "display_name": "GPT 5.4",
+   "model": null,
+   "roster_type": "llm",
+   "rows_total": 17,
+   "spaces": [
+    "Polymarket"
+   ],
+   "note": "horizon/category-tagged twin of base_lane (same model + prompt)"
+  },
+  "panel_gpt_t1_technology": {
+   "base_lane": "gpt",
+   "display_name": "GPT 5.4",
+   "model": null,
+   "roster_type": "llm",
+   "rows_total": 12,
+   "spaces": [
+    "Polymarket"
+   ],
+   "note": "horizon/category-tagged twin of base_lane (same model + prompt)"
+  },
+  "panel_gpt_t21_business": {
+   "base_lane": "gpt",
+   "display_name": "GPT 5.4",
+   "model": null,
+   "roster_type": "llm",
+   "rows_total": 21,
+   "spaces": [
+    "Polymarket"
+   ],
+   "note": "horizon/category-tagged twin of base_lane (same model + prompt)"
+  },
+  "panel_gpt_t21_climate": {
+   "base_lane": "gpt",
+   "display_name": "GPT 5.4",
+   "model": null,
+   "roster_type": "llm",
+   "rows_total": 15,
+   "spaces": [
+    "Polymarket"
+   ],
+   "note": "horizon/category-tagged twin of base_lane (same model + prompt)"
+  },
+  "panel_gpt_t21_crypto": {
+   "base_lane": "gpt",
+   "display_name": "GPT 5.4",
+   "model": null,
+   "roster_type": "llm",
+   "rows_total": 30,
+   "spaces": [
+    "Polymarket"
+   ],
+   "note": "horizon/category-tagged twin of base_lane (same model + prompt)"
+  },
+  "panel_gpt_t21_economics": {
+   "base_lane": "gpt",
+   "display_name": "GPT 5.4",
+   "model": null,
+   "roster_type": "llm",
+   "rows_total": 30,
+   "spaces": [
+    "Polymarket"
+   ],
+   "note": "horizon/category-tagged twin of base_lane (same model + prompt)"
+  },
+  "panel_gpt_t21_entertainment": {
+   "base_lane": "gpt",
+   "display_name": "GPT 5.4",
+   "model": null,
+   "roster_type": "llm",
+   "rows_total": 30,
+   "spaces": [
+    "Polymarket"
+   ],
+   "note": "horizon/category-tagged twin of base_lane (same model + prompt)"
+  },
+  "panel_gpt_t21_international": {
+   "base_lane": "gpt",
+   "display_name": "GPT 5.4",
+   "model": null,
+   "roster_type": "llm",
+   "rows_total": 30,
+   "spaces": [
+    "Polymarket"
+   ],
+   "note": "horizon/category-tagged twin of base_lane (same model + prompt)"
+  },
+  "panel_gpt_t21_politics": {
+   "base_lane": "gpt",
+   "display_name": "GPT 5.4",
+   "model": null,
+   "roster_type": "llm",
+   "rows_total": 30,
+   "spaces": [
+    "Polymarket"
+   ],
+   "note": "horizon/category-tagged twin of base_lane (same model + prompt)"
+  },
+  "panel_gpt_t21_sports": {
+   "base_lane": "gpt",
+   "display_name": "GPT 5.4",
+   "model": null,
+   "roster_type": "llm",
+   "rows_total": 30,
+   "spaces": [
+    "Polymarket"
+   ],
+   "note": "horizon/category-tagged twin of base_lane (same model + prompt)"
+  },
+  "panel_gpt_t21_technology": {
+   "base_lane": "gpt",
+   "display_name": "GPT 5.4",
+   "model": null,
+   "roster_type": "llm",
+   "rows_total": 24,
+   "spaces": [
+    "Polymarket"
+   ],
+   "note": "horizon/category-tagged twin of base_lane (same model + prompt)"
+  },
+  "panel_gpt_t45_crypto": {
+   "base_lane": "gpt",
+   "display_name": "GPT 5.4",
+   "model": null,
+   "roster_type": "llm",
+   "rows_total": 30,
+   "spaces": [
+    "Polymarket"
+   ],
+   "note": "horizon/category-tagged twin of base_lane (same model + prompt)"
+  },
+  "panel_gpt_t45_economics": {
+   "base_lane": "gpt",
+   "display_name": "GPT 5.4",
+   "model": null,
+   "roster_type": "llm",
+   "rows_total": 28,
+   "spaces": [
+    "Polymarket"
+   ],
+   "note": "horizon/category-tagged twin of base_lane (same model + prompt)"
+  },
+  "panel_gpt_t45_international": {
+   "base_lane": "gpt",
+   "display_name": "GPT 5.4",
+   "model": null,
+   "roster_type": "llm",
+   "rows_total": 26,
+   "spaces": [
+    "Polymarket"
+   ],
+   "note": "horizon/category-tagged twin of base_lane (same model + prompt)"
+  },
+  "panel_gpt_t45_politics": {
+   "base_lane": "gpt",
+   "display_name": "GPT 5.4",
+   "model": null,
+   "roster_type": "llm",
+   "rows_total": 30,
+   "spaces": [
+    "Polymarket"
+   ],
+   "note": "horizon/category-tagged twin of base_lane (same model + prompt)"
+  },
+  "panel_gpt_t45_sports": {
+   "base_lane": "gpt",
+   "display_name": "GPT 5.4",
+   "model": null,
+   "roster_type": "llm",
+   "rows_total": 26,
+   "spaces": [
+    "Polymarket"
+   ],
+   "note": "horizon/category-tagged twin of base_lane (same model + prompt)"
+  },
+  "panel_gpt_t45_technology": {
+   "base_lane": "gpt",
+   "display_name": "GPT 5.4",
+   "model": null,
+   "roster_type": "llm",
+   "rows_total": 30,
+   "spaces": [
+    "Polymarket"
+   ],
+   "note": "horizon/category-tagged twin of base_lane (same model + prompt)"
+  },
+  "panel_gpt_t4_business": {
+   "base_lane": "gpt",
+   "display_name": "GPT 5.4",
+   "model": null,
+   "roster_type": "llm",
+   "rows_total": 16,
+   "spaces": [
+    "Polymarket"
+   ],
+   "note": "horizon/category-tagged twin of base_lane (same model + prompt)"
+  },
+  "panel_gpt_t4_climate": {
+   "base_lane": "gpt",
+   "display_name": "GPT 5.4",
+   "model": null,
+   "roster_type": "llm",
+   "rows_total": 14,
+   "spaces": [
+    "Polymarket"
+   ],
+   "note": "horizon/category-tagged twin of base_lane (same model + prompt)"
+  },
+  "panel_gpt_t4_crypto": {
+   "base_lane": "gpt",
+   "display_name": "GPT 5.4",
+   "model": null,
+   "roster_type": "llm",
+   "rows_total": 16,
+   "spaces": [
+    "Polymarket"
+   ],
+   "note": "horizon/category-tagged twin of base_lane (same model + prompt)"
+  },
+  "panel_gpt_t4_economics": {
+   "base_lane": "gpt",
+   "display_name": "GPT 5.4",
+   "model": null,
+   "roster_type": "llm",
+   "rows_total": 29,
+   "spaces": [
+    "Polymarket"
+   ],
+   "note": "horizon/category-tagged twin of base_lane (same model + prompt)"
+  },
+  "panel_gpt_t4_entertainment": {
+   "base_lane": "gpt",
+   "display_name": "GPT 5.4",
+   "model": null,
+   "roster_type": "llm",
+   "rows_total": 13,
+   "spaces": [
+    "Polymarket"
+   ],
+   "note": "horizon/category-tagged twin of base_lane (same model + prompt)"
+  },
+  "panel_gpt_t4_international": {
+   "base_lane": "gpt",
+   "display_name": "GPT 5.4",
+   "model": null,
+   "roster_type": "llm",
+   "rows_total": 25,
+   "spaces": [
+    "Polymarket"
+   ],
+   "note": "horizon/category-tagged twin of base_lane (same model + prompt)"
+  },
+  "panel_gpt_t4_politics": {
+   "base_lane": "gpt",
+   "display_name": "GPT 5.4",
+   "model": null,
+   "roster_type": "llm",
+   "rows_total": 24,
+   "spaces": [
+    "Polymarket"
+   ],
+   "note": "horizon/category-tagged twin of base_lane (same model + prompt)"
+  },
+  "panel_gpt_t4_sports": {
+   "base_lane": "gpt",
+   "display_name": "GPT 5.4",
+   "model": null,
+   "roster_type": "llm",
+   "rows_total": 22,
+   "spaces": [
+    "Polymarket"
+   ],
+   "note": "horizon/category-tagged twin of base_lane (same model + prompt)"
+  },
+  "panel_gpt_t4_technology": {
+   "base_lane": "gpt",
+   "display_name": "GPT 5.4",
+   "model": null,
+   "roster_type": "llm",
+   "rows_total": 14,
+   "spaces": [
+    "Polymarket"
+   ],
+   "note": "horizon/category-tagged twin of base_lane (same model + prompt)"
+  },
+  "panel_grok": {
+   "base_lane": "grok",
+   "display_name": "Grok 4.3",
+   "model": null,
+   "roster_type": "llm",
+   "rows_total": 52458,
+   "spaces": [
+    "Kalshi",
+    "Polymarket",
+    "Sooth_QGen",
+    "Sooth_QGen_Calendar",
+    "qgen"
+   ]
+  },
+  "panel_grok_4_5": {
+   "base_lane": "grok_4_5",
+   "display_name": "Grok 4.5",
+   "model": null,
+   "roster_type": "llm",
+   "rows_total": 19010,
+   "spaces": [
+    "Kalshi",
+    "Polymarket",
+    "Sooth_QGen",
+    "Sooth_QGen_Calendar"
+   ]
+  },
+  "panel_grok_4_6": {
+   "base_lane": "grok_4_6",
+   "display_name": "Grok 4.6",
+   "model": null,
+   "roster_type": "llm",
+   "rows_total": 28633,
+   "spaces": [
+    "Kalshi",
+    "Polymarket",
+    "Sooth_QGen",
+    "Sooth_QGen_v2"
+   ]
+  },
+  "panel_grok_t10_business": {
+   "base_lane": "grok",
+   "display_name": "Grok 4.3",
+   "model": null,
+   "roster_type": "llm",
+   "rows_total": 29,
+   "spaces": [
+    "Polymarket"
+   ],
+   "note": "horizon/category-tagged twin of base_lane (same model + prompt)"
+  },
+  "panel_grok_t10_climate": {
+   "base_lane": "grok",
+   "display_name": "Grok 4.3",
+   "model": null,
+   "roster_type": "llm",
+   "rows_total": 23,
+   "spaces": [
+    "Polymarket"
+   ],
+   "note": "horizon/category-tagged twin of base_lane (same model + prompt)"
+  },
+  "panel_grok_t10_crypto": {
+   "base_lane": "grok",
+   "display_name": "Grok 4.3",
+   "model": null,
+   "roster_type": "llm",
+   "rows_total": 24,
+   "spaces": [
+    "Polymarket"
+   ],
+   "note": "horizon/category-tagged twin of base_lane (same model + prompt)"
+  },
+  "panel_grok_t10_economics": {
+   "base_lane": "grok",
+   "display_name": "Grok 4.3",
+   "model": null,
+   "roster_type": "llm",
+   "rows_total": 29,
+   "spaces": [
+    "Polymarket"
+   ],
+   "note": "horizon/category-tagged twin of base_lane (same model + prompt)"
+  },
+  "panel_grok_t10_entertainment": {
+   "base_lane": "grok",
+   "display_name": "Grok 4.3",
+   "model": null,
+   "roster_type": "llm",
+   "rows_total": 29,
+   "spaces": [
+    "Polymarket"
+   ],
+   "note": "horizon/category-tagged twin of base_lane (same model + prompt)"
+  },
+  "panel_grok_t10_health": {
+   "base_lane": "grok",
+   "display_name": "Grok 4.3",
+   "model": null,
+   "roster_type": "llm",
+   "rows_total": 8,
+   "spaces": [
+    "Polymarket"
+   ],
+   "note": "horizon/category-tagged twin of base_lane (same model + prompt)"
+  },
+  "panel_grok_t10_international": {
+   "base_lane": "grok",
+   "display_name": "Grok 4.3",
+   "model": null,
+   "roster_type": "llm",
+   "rows_total": 24,
+   "spaces": [
+    "Polymarket"
+   ],
+   "note": "horizon/category-tagged twin of base_lane (same model + prompt)"
+  },
+  "panel_grok_t10_politics": {
+   "base_lane": "grok",
+   "display_name": "Grok 4.3",
+   "model": null,
+   "roster_type": "llm",
+   "rows_total": 24,
+   "spaces": [
+    "Polymarket"
+   ],
+   "note": "horizon/category-tagged twin of base_lane (same model + prompt)"
+  },
+  "panel_grok_t10_sports": {
+   "base_lane": "grok",
+   "display_name": "Grok 4.3",
+   "model": null,
+   "roster_type": "llm",
+   "rows_total": 19,
+   "spaces": [
+    "Polymarket"
+   ],
+   "note": "horizon/category-tagged twin of base_lane (same model + prompt)"
+  },
+  "panel_grok_t10_technology": {
+   "base_lane": "grok",
+   "display_name": "Grok 4.3",
+   "model": null,
+   "roster_type": "llm",
+   "rows_total": 19,
+   "spaces": [
+    "Polymarket"
+   ],
+   "note": "horizon/category-tagged twin of base_lane (same model + prompt)"
+  },
+  "panel_grok_t1_business": {
+   "base_lane": "grok",
+   "display_name": "Grok 4.3",
+   "model": null,
+   "roster_type": "llm",
+   "rows_total": 19,
+   "spaces": [
+    "Polymarket"
+   ],
+   "note": "horizon/category-tagged twin of base_lane (same model + prompt)"
+  },
+  "panel_grok_t1_climate": {
+   "base_lane": "grok",
+   "display_name": "Grok 4.3",
+   "model": null,
+   "roster_type": "llm",
+   "rows_total": 10,
+   "spaces": [
+    "Polymarket"
+   ],
+   "note": "horizon/category-tagged twin of base_lane (same model + prompt)"
+  },
+  "panel_grok_t1_crypto": {
+   "base_lane": "grok",
+   "display_name": "Grok 4.3",
+   "model": null,
+   "roster_type": "llm",
+   "rows_total": 10,
+   "spaces": [
+    "Polymarket"
+   ],
+   "note": "horizon/category-tagged twin of base_lane (same model + prompt)"
+  },
+  "panel_grok_t1_economics": {
+   "base_lane": "grok",
+   "display_name": "Grok 4.3",
+   "model": null,
+   "roster_type": "llm",
+   "rows_total": 20,
+   "spaces": [
+    "Polymarket"
+   ],
+   "note": "horizon/category-tagged twin of base_lane (same model + prompt)"
+  },
+  "panel_grok_t1_entertainment": {
+   "base_lane": "grok",
+   "display_name": "Grok 4.3",
+   "model": null,
+   "roster_type": "llm",
+   "rows_total": 24,
+   "spaces": [
+    "Polymarket"
+   ],
+   "note": "horizon/category-tagged twin of base_lane (same model + prompt)"
+  },
+  "panel_grok_t1_international": {
+   "base_lane": "grok",
+   "display_name": "Grok 4.3",
+   "model": null,
+   "roster_type": "llm",
+   "rows_total": 27,
+   "spaces": [
+    "Polymarket"
+   ],
+   "note": "horizon/category-tagged twin of base_lane (same model + prompt)"
+  },
+  "panel_grok_t1_politics": {
+   "base_lane": "grok",
+   "display_name": "Grok 4.3",
+   "model": null,
+   "roster_type": "llm",
+   "rows_total": 15,
+   "spaces": [
+    "Polymarket"
+   ],
+   "note": "horizon/category-tagged twin of base_lane (same model + prompt)"
+  },
+  "panel_grok_t1_sports": {
+   "base_lane": "grok",
+   "display_name": "Grok 4.3",
+   "model": null,
+   "roster_type": "llm",
+   "rows_total": 15,
+   "spaces": [
+    "Polymarket"
+   ],
+   "note": "horizon/category-tagged twin of base_lane (same model + prompt)"
+  },
+  "panel_grok_t1_technology": {
+   "base_lane": "grok",
+   "display_name": "Grok 4.3",
+   "model": null,
+   "roster_type": "llm",
+   "rows_total": 12,
+   "spaces": [
+    "Polymarket"
+   ],
+   "note": "horizon/category-tagged twin of base_lane (same model + prompt)"
+  },
+  "panel_grok_t21_business": {
+   "base_lane": "grok",
+   "display_name": "Grok 4.3",
+   "model": null,
+   "roster_type": "llm",
+   "rows_total": 21,
+   "spaces": [
+    "Polymarket"
+   ],
+   "note": "horizon/category-tagged twin of base_lane (same model + prompt)"
+  },
+  "panel_grok_t21_climate": {
+   "base_lane": "grok",
+   "display_name": "Grok 4.3",
+   "model": null,
+   "roster_type": "llm",
+   "rows_total": 14,
+   "spaces": [
+    "Polymarket"
+   ],
+   "note": "horizon/category-tagged twin of base_lane (same model + prompt)"
+  },
+  "panel_grok_t21_crypto": {
+   "base_lane": "grok",
+   "display_name": "Grok 4.3",
+   "model": null,
+   "roster_type": "llm",
+   "rows_total": 30,
+   "spaces": [
+    "Polymarket"
+   ],
+   "note": "horizon/category-tagged twin of base_lane (same model + prompt)"
+  },
+  "panel_grok_t21_economics": {
+   "base_lane": "grok",
+   "display_name": "Grok 4.3",
+   "model": null,
+   "roster_type": "llm",
+   "rows_total": 29,
+   "spaces": [
+    "Polymarket"
+   ],
+   "note": "horizon/category-tagged twin of base_lane (same model + prompt)"
+  },
+  "panel_grok_t21_entertainment": {
+   "base_lane": "grok",
+   "display_name": "Grok 4.3",
+   "model": null,
+   "roster_type": "llm",
+   "rows_total": 30,
+   "spaces": [
+    "Polymarket"
+   ],
+   "note": "horizon/category-tagged twin of base_lane (same model + prompt)"
+  },
+  "panel_grok_t21_international": {
+   "base_lane": "grok",
+   "display_name": "Grok 4.3",
+   "model": null,
+   "roster_type": "llm",
+   "rows_total": 30,
+   "spaces": [
+    "Polymarket"
+   ],
+   "note": "horizon/category-tagged twin of base_lane (same model + prompt)"
+  },
+  "panel_grok_t21_politics": {
+   "base_lane": "grok",
+   "display_name": "Grok 4.3",
+   "model": null,
+   "roster_type": "llm",
+   "rows_total": 30,
+   "spaces": [
+    "Polymarket"
+   ],
+   "note": "horizon/category-tagged twin of base_lane (same model + prompt)"
+  },
+  "panel_grok_t21_sports": {
+   "base_lane": "grok",
+   "display_name": "Grok 4.3",
+   "model": null,
+   "roster_type": "llm",
+   "rows_total": 30,
+   "spaces": [
+    "Polymarket"
+   ],
+   "note": "horizon/category-tagged twin of base_lane (same model + prompt)"
+  },
+  "panel_grok_t21_technology": {
+   "base_lane": "grok",
+   "display_name": "Grok 4.3",
+   "model": null,
+   "roster_type": "llm",
+   "rows_total": 24,
+   "spaces": [
+    "Polymarket"
+   ],
+   "note": "horizon/category-tagged twin of base_lane (same model + prompt)"
+  },
+  "panel_grok_t45_crypto": {
+   "base_lane": "grok",
+   "display_name": "Grok 4.3",
+   "model": null,
+   "roster_type": "llm",
+   "rows_total": 30,
+   "spaces": [
+    "Polymarket"
+   ],
+   "note": "horizon/category-tagged twin of base_lane (same model + prompt)"
+  },
+  "panel_grok_t45_economics": {
+   "base_lane": "grok",
+   "display_name": "Grok 4.3",
+   "model": null,
+   "roster_type": "llm",
+   "rows_total": 28,
+   "spaces": [
+    "Polymarket"
+   ],
+   "note": "horizon/category-tagged twin of base_lane (same model + prompt)"
+  },
+  "panel_grok_t45_international": {
+   "base_lane": "grok",
+   "display_name": "Grok 4.3",
+   "model": null,
+   "roster_type": "llm",
+   "rows_total": 26,
+   "spaces": [
+    "Polymarket"
+   ],
+   "note": "horizon/category-tagged twin of base_lane (same model + prompt)"
+  },
+  "panel_grok_t45_politics": {
+   "base_lane": "grok",
+   "display_name": "Grok 4.3",
+   "model": null,
+   "roster_type": "llm",
+   "rows_total": 30,
+   "spaces": [
+    "Polymarket"
+   ],
+   "note": "horizon/category-tagged twin of base_lane (same model + prompt)"
+  },
+  "panel_grok_t45_sports": {
+   "base_lane": "grok",
+   "display_name": "Grok 4.3",
+   "model": null,
+   "roster_type": "llm",
+   "rows_total": 26,
+   "spaces": [
+    "Polymarket"
+   ],
+   "note": "horizon/category-tagged twin of base_lane (same model + prompt)"
+  },
+  "panel_grok_t45_technology": {
+   "base_lane": "grok",
+   "display_name": "Grok 4.3",
+   "model": null,
+   "roster_type": "llm",
+   "rows_total": 30,
+   "spaces": [
+    "Polymarket"
+   ],
+   "note": "horizon/category-tagged twin of base_lane (same model + prompt)"
+  },
+  "panel_grok_t4_business": {
+   "base_lane": "grok",
+   "display_name": "Grok 4.3",
+   "model": null,
+   "roster_type": "llm",
+   "rows_total": 16,
+   "spaces": [
+    "Polymarket"
+   ],
+   "note": "horizon/category-tagged twin of base_lane (same model + prompt)"
+  },
+  "panel_grok_t4_climate": {
+   "base_lane": "grok",
+   "display_name": "Grok 4.3",
+   "model": null,
+   "roster_type": "llm",
+   "rows_total": 14,
+   "spaces": [
+    "Polymarket"
+   ],
+   "note": "horizon/category-tagged twin of base_lane (same model + prompt)"
+  },
+  "panel_grok_t4_crypto": {
+   "base_lane": "grok",
+   "display_name": "Grok 4.3",
+   "model": null,
+   "roster_type": "llm",
+   "rows_total": 16,
+   "spaces": [
+    "Polymarket"
+   ],
+   "note": "horizon/category-tagged twin of base_lane (same model + prompt)"
+  },
+  "panel_grok_t4_economics": {
+   "base_lane": "grok",
+   "display_name": "Grok 4.3",
+   "model": null,
+   "roster_type": "llm",
+   "rows_total": 29,
+   "spaces": [
+    "Polymarket"
+   ],
+   "note": "horizon/category-tagged twin of base_lane (same model + prompt)"
+  },
+  "panel_grok_t4_entertainment": {
+   "base_lane": "grok",
+   "display_name": "Grok 4.3",
+   "model": null,
+   "roster_type": "llm",
+   "rows_total": 13,
+   "spaces": [
+    "Polymarket"
+   ],
+   "note": "horizon/category-tagged twin of base_lane (same model + prompt)"
+  },
+  "panel_grok_t4_international": {
+   "base_lane": "grok",
+   "display_name": "Grok 4.3",
+   "model": null,
+   "roster_type": "llm",
+   "rows_total": 25,
+   "spaces": [
+    "Polymarket"
+   ],
+   "note": "horizon/category-tagged twin of base_lane (same model + prompt)"
+  },
+  "panel_grok_t4_politics": {
+   "base_lane": "grok",
+   "display_name": "Grok 4.3",
+   "model": null,
+   "roster_type": "llm",
+   "rows_total": 24,
+   "spaces": [
+    "Polymarket"
+   ],
+   "note": "horizon/category-tagged twin of base_lane (same model + prompt)"
+  },
+  "panel_grok_t4_sports": {
+   "base_lane": "grok",
+   "display_name": "Grok 4.3",
+   "model": null,
+   "roster_type": "llm",
+   "rows_total": 21,
+   "spaces": [
+    "Polymarket"
+   ],
+   "note": "horizon/category-tagged twin of base_lane (same model + prompt)"
+  },
+  "panel_grok_t4_technology": {
+   "base_lane": "grok",
+   "display_name": "Grok 4.3",
+   "model": null,
+   "roster_type": "llm",
+   "rows_total": 14,
+   "spaces": [
+    "Polymarket"
+   ],
+   "note": "horizon/category-tagged twin of base_lane (same model + prompt)"
+  },
+  "panel_grok_w2": {
+   "base_lane": "grok_w2",
+   "display_name": "Ensemble: Grok 4",
+   "model": null,
+   "roster_type": "llm",
+   "rows_total": 22643,
+   "spaces": [
+    "Kalshi",
+    "Polymarket",
+    "Sooth_QGen",
+    "qgen"
+   ],
+   "note": "wave-2 deliberation twin (sees wave-1 forecasts)"
+  },
+  "panel_inkling": {
+   "base_lane": "inkling",
+   "display_name": "Inkling",
+   "model": null,
+   "roster_type": "llm",
+   "rows_total": 12932,
+   "spaces": [
+    "Kalshi",
+    "Polymarket",
+    "Sooth_QGen",
+    "Sooth_QGen_Calendar"
+   ]
+  },
+  "panel_kimi": {
+   "base_lane": "kimi",
+   "display_name": "Kimi K2.6",
+   "model": null,
+   "roster_type": "llm",
+   "rows_total": 4354,
+   "spaces": [
+    "Kalshi",
+    "Polymarket",
+    "Sooth_QGen",
+    "Sooth_QGen_Calendar",
+    "qgen"
+   ]
+  },
+  "panel_kimi_k3": {
+   "base_lane": "kimi_k3",
+   "display_name": "Kimi K3",
+   "model": null,
+   "roster_type": "llm",
+   "rows_total": 56766,
+   "spaces": [
+    "Kalshi",
+    "Polymarket",
+    "Sooth_QGen",
+    "Sooth_QGen_Calendar",
+    "Sooth_QGen_v2"
+   ]
+  },
+  "panel_kimi_w2": {
+   "base_lane": "kimi_w2",
+   "display_name": "Ensemble: Kimi K2.6",
+   "model": null,
+   "roster_type": "llm",
+   "rows_total": 134,
+   "spaces": [
+    "Kalshi",
+    "Polymarket",
+    "qgen"
+   ],
+   "note": "wave-2 deliberation twin (sees wave-1 forecasts)"
+  },
+  "panel_kimi_w2_noweb": {
+   "base_lane": "kimi_w2_noweb",
+   "display_name": "Ensemble: Kimi K2.6 (no web)",
+   "model": "openrouter/moonshotai/kimi-k2.6",
+   "roster_type": "llm",
+   "rows_total": 32,
+   "spaces": [
+    "Kalshi",
+    "Polymarket",
+    "qgen"
+   ],
+   "note": "no-web-search ablation"
+  },
+  "panel_mistral_large_3": {
+   "base_lane": "mistral_large_3",
+   "display_name": "Mistral Large 3",
+   "model": "openrouter/mistralai/mistral-large-3",
+   "roster_type": "llm",
+   "rows_total": 1,
+   "spaces": [
+    "Polymarket"
+   ],
+   "note": "not in any origin/main roster yaml; model id inferred from lane name"
+  },
+  "panel_muse_spark_1_1": {
+   "base_lane": "muse_spark_1_1",
+   "display_name": "Muse Spark 1.1",
+   "model": null,
+   "roster_type": "llm",
+   "rows_total": 14836,
+   "spaces": [
+    "Kalshi",
+    "Polymarket",
+    "Sooth_QGen",
+    "Sooth_QGen_Calendar"
+   ]
+  },
+  "panel_muse_spark_1_2": {
+   "base_lane": "muse_spark_1_2",
+   "display_name": "Muse Spark 1.2",
+   "model": null,
+   "roster_type": "llm",
+   "rows_total": 963,
+   "spaces": [
+    "Kalshi",
+    "Polymarket",
+    "Sooth_QGen"
+   ]
+  },
+  "panel_qwen": {
+   "base_lane": "qwen",
+   "display_name": "Qwen 3.5+",
+   "model": null,
+   "roster_type": "llm",
+   "rows_total": 45036,
+   "spaces": [
+    "Kalshi",
+    "Polymarket",
+    "Sooth_QGen",
+    "qgen"
+   ]
+  },
+  "panel_qwen_w2": {
+   "base_lane": "qwen_w2",
+   "display_name": "Ensemble: Qwen 3.5+",
+   "model": null,
+   "roster_type": "llm",
+   "rows_total": 22635,
+   "spaces": [
+    "Kalshi",
+    "Polymarket",
+    "Sooth_QGen",
+    "qgen"
+   ],
+   "note": "wave-2 deliberation twin (sees wave-1 forecasts)"
+  },
+  "panel_qwen_w2_noweb": {
+   "base_lane": "qwen_w2_noweb",
+   "display_name": "Ensemble: Qwen 3.5+ (no web)",
+   "model": "openrouter/qwen/qwen3.5-plus-20260420",
+   "roster_type": "llm",
+   "rows_total": 32,
+   "spaces": [
+    "Kalshi",
+    "Polymarket",
+    "qgen"
+   ],
+   "note": "no-web-search ablation"
+  }
+ },
+ "internal": {
+  "panel_dromedary_imitation_1": {
+   "base_lane": "dromedary_imitation_1",
+   "display_name": "Dromedary Imitation 1",
+   "model": null,
+   "roster_type": "llm",
+   "rows_total": 18769,
+   "spaces": [
+    "Kalshi",
+    "Polymarket",
+    "Sooth_QGen"
+   ]
+  },
+  "panel_meta": {
+   "base_lane": "meta",
+   "display_name": null,
+   "model": null,
+   "roster_type": "llm",
+   "rows_total": 5152,
+   "spaces": [
+    "Polymarket"
+   ]
+  },
+  "panel_meta_t10_business": {
+   "base_lane": "meta",
+   "display_name": null,
+   "model": null,
+   "roster_type": "llm",
+   "rows_total": 29,
+   "spaces": [
+    "Polymarket"
+   ],
+   "note": "horizon/category-tagged twin of base_lane (same model + prompt)"
+  },
+  "panel_meta_t10_climate": {
+   "base_lane": "meta",
+   "display_name": null,
+   "model": null,
+   "roster_type": "llm",
+   "rows_total": 23,
+   "spaces": [
+    "Polymarket"
+   ],
+   "note": "horizon/category-tagged twin of base_lane (same model + prompt)"
+  },
+  "panel_meta_t10_crypto": {
+   "base_lane": "meta",
+   "display_name": null,
+   "model": null,
+   "roster_type": "llm",
+   "rows_total": 24,
+   "spaces": [
+    "Polymarket"
+   ],
+   "note": "horizon/category-tagged twin of base_lane (same model + prompt)"
+  },
+  "panel_meta_t10_economics": {
+   "base_lane": "meta",
+   "display_name": null,
+   "model": null,
+   "roster_type": "llm",
+   "rows_total": 30,
+   "spaces": [
+    "Polymarket"
+   ],
+   "note": "horizon/category-tagged twin of base_lane (same model + prompt)"
+  },
+  "panel_meta_t10_entertainment": {
+   "base_lane": "meta",
+   "display_name": null,
+   "model": null,
+   "roster_type": "llm",
+   "rows_total": 29,
+   "spaces": [
+    "Polymarket"
+   ],
+   "note": "horizon/category-tagged twin of base_lane (same model + prompt)"
+  },
+  "panel_meta_t10_health": {
+   "base_lane": "meta",
+   "display_name": null,
+   "model": null,
+   "roster_type": "llm",
+   "rows_total": 8,
+   "spaces": [
+    "Polymarket"
+   ],
+   "note": "horizon/category-tagged twin of base_lane (same model + prompt)"
+  },
+  "panel_meta_t10_international": {
+   "base_lane": "meta",
+   "display_name": null,
+   "model": null,
+   "roster_type": "llm",
+   "rows_total": 24,
+   "spaces": [
+    "Polymarket"
+   ],
+   "note": "horizon/category-tagged twin of base_lane (same model + prompt)"
+  },
+  "panel_meta_t10_politics": {
+   "base_lane": "meta",
+   "display_name": null,
+   "model": null,
+   "roster_type": "llm",
+   "rows_total": 24,
+   "spaces": [
+    "Polymarket"
+   ],
+   "note": "horizon/category-tagged twin of base_lane (same model + prompt)"
+  },
+  "panel_meta_t10_sports": {
+   "base_lane": "meta",
+   "display_name": null,
+   "model": null,
+   "roster_type": "llm",
+   "rows_total": 20,
+   "spaces": [
+    "Polymarket"
+   ],
+   "note": "horizon/category-tagged twin of base_lane (same model + prompt)"
+  },
+  "panel_meta_t10_technology": {
+   "base_lane": "meta",
+   "display_name": null,
+   "model": null,
+   "roster_type": "llm",
+   "rows_total": 19,
+   "spaces": [
+    "Polymarket"
+   ],
+   "note": "horizon/category-tagged twin of base_lane (same model + prompt)"
+  },
+  "panel_meta_t1_business": {
+   "base_lane": "meta",
+   "display_name": null,
+   "model": null,
+   "roster_type": "llm",
+   "rows_total": 19,
+   "spaces": [
+    "Polymarket"
+   ],
+   "note": "horizon/category-tagged twin of base_lane (same model + prompt)"
+  },
+  "panel_meta_t1_climate": {
+   "base_lane": "meta",
+   "display_name": null,
+   "model": null,
+   "roster_type": "llm",
+   "rows_total": 10,
+   "spaces": [
+    "Polymarket"
+   ],
+   "note": "horizon/category-tagged twin of base_lane (same model + prompt)"
+  },
+  "panel_meta_t1_crypto": {
+   "base_lane": "meta",
+   "display_name": null,
+   "model": null,
+   "roster_type": "llm",
+   "rows_total": 10,
+   "spaces": [
+    "Polymarket"
+   ],
+   "note": "horizon/category-tagged twin of base_lane (same model + prompt)"
+  },
+  "panel_meta_t1_economics": {
+   "base_lane": "meta",
+   "display_name": null,
+   "model": null,
+   "roster_type": "llm",
+   "rows_total": 20,
+   "spaces": [
+    "Polymarket"
+   ],
+   "note": "horizon/category-tagged twin of base_lane (same model + prompt)"
+  },
+  "panel_meta_t1_entertainment": {
+   "base_lane": "meta",
+   "display_name": null,
+   "model": null,
+   "roster_type": "llm",
+   "rows_total": 24,
+   "spaces": [
+    "Polymarket"
+   ],
+   "note": "horizon/category-tagged twin of base_lane (same model + prompt)"
+  },
+  "panel_meta_t1_international": {
+   "base_lane": "meta",
+   "display_name": null,
+   "model": null,
+   "roster_type": "llm",
+   "rows_total": 27,
+   "spaces": [
+    "Polymarket"
+   ],
+   "note": "horizon/category-tagged twin of base_lane (same model + prompt)"
+  },
+  "panel_meta_t1_politics": {
+   "base_lane": "meta",
+   "display_name": null,
+   "model": null,
+   "roster_type": "llm",
+   "rows_total": 15,
+   "spaces": [
+    "Polymarket"
+   ],
+   "note": "horizon/category-tagged twin of base_lane (same model + prompt)"
+  },
+  "panel_meta_t1_sports": {
+   "base_lane": "meta",
+   "display_name": null,
+   "model": null,
+   "roster_type": "llm",
+   "rows_total": 17,
+   "spaces": [
+    "Polymarket"
+   ],
+   "note": "horizon/category-tagged twin of base_lane (same model + prompt)"
+  },
+  "panel_meta_t1_technology": {
+   "base_lane": "meta",
+   "display_name": null,
+   "model": null,
+   "roster_type": "llm",
+   "rows_total": 12,
+   "spaces": [
+    "Polymarket"
+   ],
+   "note": "horizon/category-tagged twin of base_lane (same model + prompt)"
+  },
+  "panel_meta_t21_business": {
+   "base_lane": "meta",
+   "display_name": null,
+   "model": null,
+   "roster_type": "llm",
+   "rows_total": 21,
+   "spaces": [
+    "Polymarket"
+   ],
+   "note": "horizon/category-tagged twin of base_lane (same model + prompt)"
+  },
+  "panel_meta_t21_climate": {
+   "base_lane": "meta",
+   "display_name": null,
+   "model": null,
+   "roster_type": "llm",
+   "rows_total": 15,
+   "spaces": [
+    "Polymarket"
+   ],
+   "note": "horizon/category-tagged twin of base_lane (same model + prompt)"
+  },
+  "panel_meta_t21_crypto": {
+   "base_lane": "meta",
+   "display_name": null,
+   "model": null,
+   "roster_type": "llm",
+   "rows_total": 30,
+   "spaces": [
+    "Polymarket"
+   ],
+   "note": "horizon/category-tagged twin of base_lane (same model + prompt)"
+  },
+  "panel_meta_t21_economics": {
+   "base_lane": "meta",
+   "display_name": null,
+   "model": null,
+   "roster_type": "llm",
+   "rows_total": 30,
+   "spaces": [
+    "Polymarket"
+   ],
+   "note": "horizon/category-tagged twin of base_lane (same model + prompt)"
+  },
+  "panel_meta_t21_entertainment": {
+   "base_lane": "meta",
+   "display_name": null,
+   "model": null,
+   "roster_type": "llm",
+   "rows_total": 30,
+   "spaces": [
+    "Polymarket"
+   ],
+   "note": "horizon/category-tagged twin of base_lane (same model + prompt)"
+  },
+  "panel_meta_t21_international": {
+   "base_lane": "meta",
+   "display_name": null,
+   "model": null,
+   "roster_type": "llm",
+   "rows_total": 30,
+   "spaces": [
+    "Polymarket"
+   ],
+   "note": "horizon/category-tagged twin of base_lane (same model + prompt)"
+  },
+  "panel_meta_t21_politics": {
+   "base_lane": "meta",
+   "display_name": null,
+   "model": null,
+   "roster_type": "llm",
+   "rows_total": 30,
+   "spaces": [
+    "Polymarket"
+   ],
+   "note": "horizon/category-tagged twin of base_lane (same model + prompt)"
+  },
+  "panel_meta_t21_sports": {
+   "base_lane": "meta",
+   "display_name": null,
+   "model": null,
+   "roster_type": "llm",
+   "rows_total": 30,
+   "spaces": [
+    "Polymarket"
+   ],
+   "note": "horizon/category-tagged twin of base_lane (same model + prompt)"
+  },
+  "panel_meta_t21_technology": {
+   "base_lane": "meta",
+   "display_name": null,
+   "model": null,
+   "roster_type": "llm",
+   "rows_total": 24,
+   "spaces": [
+    "Polymarket"
+   ],
+   "note": "horizon/category-tagged twin of base_lane (same model + prompt)"
+  },
+  "panel_meta_t45_crypto": {
+   "base_lane": "meta",
+   "display_name": null,
+   "model": null,
+   "roster_type": "llm",
+   "rows_total": 30,
+   "spaces": [
+    "Polymarket"
+   ],
+   "note": "horizon/category-tagged twin of base_lane (same model + prompt)"
+  },
+  "panel_meta_t45_economics": {
+   "base_lane": "meta",
+   "display_name": null,
+   "model": null,
+   "roster_type": "llm",
+   "rows_total": 28,
+   "spaces": [
+    "Polymarket"
+   ],
+   "note": "horizon/category-tagged twin of base_lane (same model + prompt)"
+  },
+  "panel_meta_t45_international": {
+   "base_lane": "meta",
+   "display_name": null,
+   "model": null,
+   "roster_type": "llm",
+   "rows_total": 26,
+   "spaces": [
+    "Polymarket"
+   ],
+   "note": "horizon/category-tagged twin of base_lane (same model + prompt)"
+  },
+  "panel_meta_t45_politics": {
+   "base_lane": "meta",
+   "display_name": null,
+   "model": null,
+   "roster_type": "llm",
+   "rows_total": 30,
+   "spaces": [
+    "Polymarket"
+   ],
+   "note": "horizon/category-tagged twin of base_lane (same model + prompt)"
+  },
+  "panel_meta_t45_sports": {
+   "base_lane": "meta",
+   "display_name": null,
+   "model": null,
+   "roster_type": "llm",
+   "rows_total": 26,
+   "spaces": [
+    "Polymarket"
+   ],
+   "note": "horizon/category-tagged twin of base_lane (same model + prompt)"
+  },
+  "panel_meta_t45_technology": {
+   "base_lane": "meta",
+   "display_name": null,
+   "model": null,
+   "roster_type": "llm",
+   "rows_total": 30,
+   "spaces": [
+    "Polymarket"
+   ],
+   "note": "horizon/category-tagged twin of base_lane (same model + prompt)"
+  },
+  "panel_meta_t4_business": {
+   "base_lane": "meta",
+   "display_name": null,
+   "model": null,
+   "roster_type": "llm",
+   "rows_total": 16,
+   "spaces": [
+    "Polymarket"
+   ],
+   "note": "horizon/category-tagged twin of base_lane (same model + prompt)"
+  },
+  "panel_meta_t4_climate": {
+   "base_lane": "meta",
+   "display_name": null,
+   "model": null,
+   "roster_type": "llm",
+   "rows_total": 14,
+   "spaces": [
+    "Polymarket"
+   ],
+   "note": "horizon/category-tagged twin of base_lane (same model + prompt)"
+  },
+  "panel_meta_t4_crypto": {
+   "base_lane": "meta",
+   "display_name": null,
+   "model": null,
+   "roster_type": "llm",
+   "rows_total": 16,
+   "spaces": [
+    "Polymarket"
+   ],
+   "note": "horizon/category-tagged twin of base_lane (same model + prompt)"
+  },
+  "panel_meta_t4_economics": {
+   "base_lane": "meta",
+   "display_name": null,
+   "model": null,
+   "roster_type": "llm",
+   "rows_total": 29,
+   "spaces": [
+    "Polymarket"
+   ],
+   "note": "horizon/category-tagged twin of base_lane (same model + prompt)"
+  },
+  "panel_meta_t4_entertainment": {
+   "base_lane": "meta",
+   "display_name": null,
+   "model": null,
+   "roster_type": "llm",
+   "rows_total": 13,
+   "spaces": [
+    "Polymarket"
+   ],
+   "note": "horizon/category-tagged twin of base_lane (same model + prompt)"
+  },
+  "panel_meta_t4_international": {
+   "base_lane": "meta",
+   "display_name": null,
+   "model": null,
+   "roster_type": "llm",
+   "rows_total": 25,
+   "spaces": [
+    "Polymarket"
+   ],
+   "note": "horizon/category-tagged twin of base_lane (same model + prompt)"
+  },
+  "panel_meta_t4_politics": {
+   "base_lane": "meta",
+   "display_name": null,
+   "model": null,
+   "roster_type": "llm",
+   "rows_total": 24,
+   "spaces": [
+    "Polymarket"
+   ],
+   "note": "horizon/category-tagged twin of base_lane (same model + prompt)"
+  },
+  "panel_meta_t4_sports": {
+   "base_lane": "meta",
+   "display_name": null,
+   "model": null,
+   "roster_type": "llm",
+   "rows_total": 22,
+   "spaces": [
+    "Polymarket"
+   ],
+   "note": "horizon/category-tagged twin of base_lane (same model + prompt)"
+  },
+  "panel_meta_t4_technology": {
+   "base_lane": "meta",
+   "display_name": null,
+   "model": null,
+   "roster_type": "llm",
+   "rows_total": 14,
+   "spaces": [
+    "Polymarket"
+   ],
+   "note": "horizon/category-tagged twin of base_lane (same model + prompt)"
+  },
+  "panel_openharness": {
+   "base_lane": "openharness",
+   "display_name": null,
+   "model": null,
+   "roster_type": "llm",
+   "rows_total": 3895,
+   "spaces": [
+    "Polymarket"
+   ]
+  },
+  "panel_ormolu": {
+   "base_lane": "ormolu",
+   "display_name": "Sooth Ormolu",
+   "model": null,
+   "roster_type": "ormolu",
+   "rows_total": 248,
+   "spaces": [
+    "Kalshi",
+    "Polymarket",
+    "Sooth_QGen"
+   ]
+  },
+  "panel_ormolu_member_holistic_a": {
+   "base_lane": "ormolu_member_holistic_a",
+   "display_name": null,
+   "model": null,
+   "roster_type": "llm",
+   "rows_total": 178,
+   "spaces": [
+    "Kalshi",
+    "Polymarket",
+    "Sooth_QGen",
+    "Sooth_QGen_Calendar"
+   ]
+  },
+  "panel_ormolu_member_holistic_b": {
+   "base_lane": "ormolu_member_holistic_b",
+   "display_name": null,
+   "model": null,
+   "roster_type": "llm",
+   "rows_total": 178,
+   "spaces": [
+    "Kalshi",
+    "Polymarket",
+    "Sooth_QGen",
+    "Sooth_QGen_Calendar"
+   ]
+  },
+  "panel_ormolu_member_mechanism": {
+   "base_lane": "ormolu_member_mechanism",
+   "display_name": null,
+   "model": null,
+   "roster_type": "llm",
+   "rows_total": 179,
+   "spaces": [
+    "Kalshi",
+    "Polymarket",
+    "Sooth_QGen",
+    "Sooth_QGen_Calendar"
+   ]
+  },
+  "panel_ormolu_member_noosphere": {
+   "base_lane": "ormolu_member_noosphere",
+   "display_name": null,
+   "model": null,
+   "roster_type": "llm",
+   "rows_total": 161,
+   "spaces": [
+    "Kalshi",
+    "Polymarket",
+    "Sooth_QGen",
+    "Sooth_QGen_Calendar"
+   ]
+  },
+  "panel_ormolu_member_precedent": {
+   "base_lane": "ormolu_member_precedent",
+   "display_name": null,
+   "model": null,
+   "roster_type": "llm",
+   "rows_total": 179,
+   "spaces": [
+    "Kalshi",
+    "Polymarket",
+    "Sooth_QGen",
+    "Sooth_QGen_Calendar"
+   ]
+  },
+  "panel_ormolu_member_quantitative": {
+   "base_lane": "ormolu_member_quantitative",
+   "display_name": null,
+   "model": null,
+   "roster_type": "llm",
+   "rows_total": 177,
+   "spaces": [
+    "Kalshi",
+    "Polymarket",
+    "Sooth_QGen",
+    "Sooth_QGen_Calendar"
+   ]
+  },
+  "panel_reflector_v2_deep": {
+   "base_lane": "reflector_v2_deep",
+   "display_name": null,
+   "model": null,
+   "roster_type": "llm",
+   "rows_total": 211,
+   "spaces": [
+    "Kalshi",
+    "Polymarket",
+    "Sooth_QGen"
+   ]
+  },
+  "panel_reflector_v2_ds": {
+   "base_lane": "reflector_v2_ds",
+   "display_name": null,
+   "model": null,
+   "roster_type": "llm",
+   "rows_total": 974,
+   "spaces": [
+    "Kalshi",
+    "Polymarket",
+    "Sooth_QGen"
+   ]
+  },
+  "panel_reflector_v2_k": {
+   "base_lane": "reflector_v2_k",
+   "display_name": null,
+   "model": null,
+   "roster_type": "llm",
+   "rows_total": 987,
+   "spaces": [
+    "Kalshi",
+    "Polymarket",
+    "Sooth_QGen"
+   ]
+  },
+  "panel_rp_ensemble_live": {
+   "base_lane": "rp_ensemble_live",
+   "display_name": null,
+   "model": null,
+   "roster_type": "llm",
+   "rows_total": 22871,
+   "spaces": [
+    "Kalshi",
+    "Polymarket",
+    "Sooth_QGen",
+    "qgen"
+   ]
+  },
+  "panel_rp_ensemble_live_t10_business": {
+   "base_lane": "rp_ensemble_live",
+   "display_name": null,
+   "model": null,
+   "roster_type": "llm",
+   "rows_total": 5,
+   "spaces": [
+    "Polymarket"
+   ],
+   "note": "horizon/category-tagged twin of base_lane (same model + prompt)"
+  },
+  "panel_rp_ensemble_live_t10_climate": {
+   "base_lane": "rp_ensemble_live",
+   "display_name": null,
+   "model": null,
+   "roster_type": "llm",
+   "rows_total": 5,
+   "spaces": [
+    "Polymarket"
+   ],
+   "note": "horizon/category-tagged twin of base_lane (same model + prompt)"
+  },
+  "panel_rp_ensemble_live_t10_crypto": {
+   "base_lane": "rp_ensemble_live",
+   "display_name": null,
+   "model": null,
+   "roster_type": "llm",
+   "rows_total": 5,
+   "spaces": [
+    "Polymarket"
+   ],
+   "note": "horizon/category-tagged twin of base_lane (same model + prompt)"
+  },
+  "panel_rp_ensemble_live_t10_economics": {
+   "base_lane": "rp_ensemble_live",
+   "display_name": null,
+   "model": null,
+   "roster_type": "llm",
+   "rows_total": 5,
+   "spaces": [
+    "Polymarket"
+   ],
+   "note": "horizon/category-tagged twin of base_lane (same model + prompt)"
+  },
+  "panel_rp_ensemble_live_t10_entertainment": {
+   "base_lane": "rp_ensemble_live",
+   "display_name": null,
+   "model": null,
+   "roster_type": "llm",
+   "rows_total": 5,
+   "spaces": [
+    "Polymarket"
+   ],
+   "note": "horizon/category-tagged twin of base_lane (same model + prompt)"
+  },
+  "panel_rp_ensemble_live_t10_international": {
+   "base_lane": "rp_ensemble_live",
+   "display_name": null,
+   "model": null,
+   "roster_type": "llm",
+   "rows_total": 5,
+   "spaces": [
+    "Polymarket"
+   ],
+   "note": "horizon/category-tagged twin of base_lane (same model + prompt)"
+  },
+  "panel_rp_ensemble_live_t10_politics": {
+   "base_lane": "rp_ensemble_live",
+   "display_name": null,
+   "model": null,
+   "roster_type": "llm",
+   "rows_total": 5,
+   "spaces": [
+    "Polymarket"
+   ],
+   "note": "horizon/category-tagged twin of base_lane (same model + prompt)"
+  },
+  "panel_rp_ensemble_live_t10_sports": {
+   "base_lane": "rp_ensemble_live",
+   "display_name": null,
+   "model": null,
+   "roster_type": "llm",
+   "rows_total": 5,
+   "spaces": [
+    "Polymarket"
+   ],
+   "note": "horizon/category-tagged twin of base_lane (same model + prompt)"
+  },
+  "panel_rp_ensemble_live_t10_technology": {
+   "base_lane": "rp_ensemble_live",
+   "display_name": null,
+   "model": null,
+   "roster_type": "llm",
+   "rows_total": 4,
+   "spaces": [
+    "Polymarket"
+   ],
+   "note": "horizon/category-tagged twin of base_lane (same model + prompt)"
+  },
+  "panel_rp_ensemble_live_t1_business": {
+   "base_lane": "rp_ensemble_live",
+   "display_name": null,
+   "model": null,
+   "roster_type": "llm",
+   "rows_total": 3,
+   "spaces": [
+    "Polymarket"
+   ],
+   "note": "horizon/category-tagged twin of base_lane (same model + prompt)"
+  },
+  "panel_rp_ensemble_live_t1_climate": {
+   "base_lane": "rp_ensemble_live",
+   "display_name": null,
+   "model": null,
+   "roster_type": "llm",
+   "rows_total": 5,
+   "spaces": [
+    "Polymarket"
+   ],
+   "note": "horizon/category-tagged twin of base_lane (same model + prompt)"
+  },
+  "panel_rp_ensemble_live_t1_crypto": {
+   "base_lane": "rp_ensemble_live",
+   "display_name": null,
+   "model": null,
+   "roster_type": "llm",
+   "rows_total": 5,
+   "spaces": [
+    "Polymarket"
+   ],
+   "note": "horizon/category-tagged twin of base_lane (same model + prompt)"
+  },
+  "panel_rp_ensemble_live_t1_economics": {
+   "base_lane": "rp_ensemble_live",
+   "display_name": null,
+   "model": null,
+   "roster_type": "llm",
+   "rows_total": 5,
+   "spaces": [
+    "Polymarket"
+   ],
+   "note": "horizon/category-tagged twin of base_lane (same model + prompt)"
+  },
+  "panel_rp_ensemble_live_t1_entertainment": {
+   "base_lane": "rp_ensemble_live",
+   "display_name": null,
+   "model": null,
+   "roster_type": "llm",
+   "rows_total": 5,
+   "spaces": [
+    "Polymarket"
+   ],
+   "note": "horizon/category-tagged twin of base_lane (same model + prompt)"
+  },
+  "panel_rp_ensemble_live_t1_international": {
+   "base_lane": "rp_ensemble_live",
+   "display_name": null,
+   "model": null,
+   "roster_type": "llm",
+   "rows_total": 5,
+   "spaces": [
+    "Polymarket"
+   ],
+   "note": "horizon/category-tagged twin of base_lane (same model + prompt)"
+  },
+  "panel_rp_ensemble_live_t1_politics": {
+   "base_lane": "rp_ensemble_live",
+   "display_name": null,
+   "model": null,
+   "roster_type": "llm",
+   "rows_total": 5,
+   "spaces": [
+    "Polymarket"
+   ],
+   "note": "horizon/category-tagged twin of base_lane (same model + prompt)"
+  },
+  "panel_rp_ensemble_live_t1_sports": {
+   "base_lane": "rp_ensemble_live",
+   "display_name": null,
+   "model": null,
+   "roster_type": "llm",
+   "rows_total": 5,
+   "spaces": [
+    "Polymarket"
+   ],
+   "note": "horizon/category-tagged twin of base_lane (same model + prompt)"
+  },
+  "panel_rp_ensemble_live_t1_technology": {
+   "base_lane": "rp_ensemble_live",
+   "display_name": null,
+   "model": null,
+   "roster_type": "llm",
+   "rows_total": 5,
+   "spaces": [
+    "Polymarket"
+   ],
+   "note": "horizon/category-tagged twin of base_lane (same model + prompt)"
+  },
+  "panel_rp_ensemble_live_t21_business": {
+   "base_lane": "rp_ensemble_live",
+   "display_name": null,
+   "model": null,
+   "roster_type": "llm",
+   "rows_total": 5,
+   "spaces": [
+    "Polymarket"
+   ],
+   "note": "horizon/category-tagged twin of base_lane (same model + prompt)"
+  },
+  "panel_rp_ensemble_live_t21_climate": {
+   "base_lane": "rp_ensemble_live",
+   "display_name": null,
+   "model": null,
+   "roster_type": "llm",
+   "rows_total": 5,
+   "spaces": [
+    "Polymarket"
+   ],
+   "note": "horizon/category-tagged twin of base_lane (same model + prompt)"
+  },
+  "panel_rp_ensemble_live_t21_crypto": {
+   "base_lane": "rp_ensemble_live",
+   "display_name": null,
+   "model": null,
+   "roster_type": "llm",
+   "rows_total": 5,
+   "spaces": [
+    "Polymarket"
+   ],
+   "note": "horizon/category-tagged twin of base_lane (same model + prompt)"
+  },
+  "panel_rp_ensemble_live_t21_economics": {
+   "base_lane": "rp_ensemble_live",
+   "display_name": null,
+   "model": null,
+   "roster_type": "llm",
+   "rows_total": 5,
+   "spaces": [
+    "Polymarket"
+   ],
+   "note": "horizon/category-tagged twin of base_lane (same model + prompt)"
+  },
+  "panel_rp_ensemble_live_t21_entertainment": {
+   "base_lane": "rp_ensemble_live",
+   "display_name": null,
+   "model": null,
+   "roster_type": "llm",
+   "rows_total": 5,
+   "spaces": [
+    "Polymarket"
+   ],
+   "note": "horizon/category-tagged twin of base_lane (same model + prompt)"
+  },
+  "panel_rp_ensemble_live_t21_international": {
+   "base_lane": "rp_ensemble_live",
+   "display_name": null,
+   "model": null,
+   "roster_type": "llm",
+   "rows_total": 5,
+   "spaces": [
+    "Polymarket"
+   ],
+   "note": "horizon/category-tagged twin of base_lane (same model + prompt)"
+  },
+  "panel_rp_ensemble_live_t21_politics": {
+   "base_lane": "rp_ensemble_live",
+   "display_name": null,
+   "model": null,
+   "roster_type": "llm",
+   "rows_total": 5,
+   "spaces": [
+    "Polymarket"
+   ],
+   "note": "horizon/category-tagged twin of base_lane (same model + prompt)"
+  },
+  "panel_rp_ensemble_live_t21_sports": {
+   "base_lane": "rp_ensemble_live",
+   "display_name": null,
+   "model": null,
+   "roster_type": "llm",
+   "rows_total": 5,
+   "spaces": [
+    "Polymarket"
+   ],
+   "note": "horizon/category-tagged twin of base_lane (same model + prompt)"
+  },
+  "panel_rp_ensemble_live_t21_technology": {
+   "base_lane": "rp_ensemble_live",
+   "display_name": null,
+   "model": null,
+   "roster_type": "llm",
+   "rows_total": 4,
+   "spaces": [
+    "Polymarket"
+   ],
+   "note": "horizon/category-tagged twin of base_lane (same model + prompt)"
+  },
+  "panel_rp_ensemble_live_t45_crypto": {
+   "base_lane": "rp_ensemble_live",
+   "display_name": null,
+   "model": null,
+   "roster_type": "llm",
+   "rows_total": 5,
+   "spaces": [
+    "Polymarket"
+   ],
+   "note": "horizon/category-tagged twin of base_lane (same model + prompt)"
+  },
+  "panel_rp_ensemble_live_t45_economics": {
+   "base_lane": "rp_ensemble_live",
+   "display_name": null,
+   "model": null,
+   "roster_type": "llm",
+   "rows_total": 4,
+   "spaces": [
+    "Polymarket"
+   ],
+   "note": "horizon/category-tagged twin of base_lane (same model + prompt)"
+  },
+  "panel_rp_ensemble_live_t45_international": {
+   "base_lane": "rp_ensemble_live",
+   "display_name": null,
+   "model": null,
+   "roster_type": "llm",
+   "rows_total": 4,
+   "spaces": [
+    "Polymarket"
+   ],
+   "note": "horizon/category-tagged twin of base_lane (same model + prompt)"
+  },
+  "panel_rp_ensemble_live_t45_politics": {
+   "base_lane": "rp_ensemble_live",
+   "display_name": null,
+   "model": null,
+   "roster_type": "llm",
+   "rows_total": 5,
+   "spaces": [
+    "Polymarket"
+   ],
+   "note": "horizon/category-tagged twin of base_lane (same model + prompt)"
+  },
+  "panel_rp_ensemble_live_t45_sports": {
+   "base_lane": "rp_ensemble_live",
+   "display_name": null,
+   "model": null,
+   "roster_type": "llm",
+   "rows_total": 4,
+   "spaces": [
+    "Polymarket"
+   ],
+   "note": "horizon/category-tagged twin of base_lane (same model + prompt)"
+  },
+  "panel_rp_ensemble_live_t45_technology": {
+   "base_lane": "rp_ensemble_live",
+   "display_name": null,
+   "model": null,
+   "roster_type": "llm",
+   "rows_total": 5,
+   "spaces": [
+    "Polymarket"
+   ],
+   "note": "horizon/category-tagged twin of base_lane (same model + prompt)"
+  },
+  "panel_rp_ensemble_live_t4_business": {
+   "base_lane": "rp_ensemble_live",
+   "display_name": null,
+   "model": null,
+   "roster_type": "llm",
+   "rows_total": 5,
+   "spaces": [
+    "Polymarket"
+   ],
+   "note": "horizon/category-tagged twin of base_lane (same model + prompt)"
+  },
+  "panel_rp_ensemble_live_t4_climate": {
+   "base_lane": "rp_ensemble_live",
+   "display_name": null,
+   "model": null,
+   "roster_type": "llm",
+   "rows_total": 5,
+   "spaces": [
+    "Polymarket"
+   ],
+   "note": "horizon/category-tagged twin of base_lane (same model + prompt)"
+  },
+  "panel_rp_ensemble_live_t4_crypto": {
+   "base_lane": "rp_ensemble_live",
+   "display_name": null,
+   "model": null,
+   "roster_type": "llm",
+   "rows_total": 5,
+   "spaces": [
+    "Polymarket"
+   ],
+   "note": "horizon/category-tagged twin of base_lane (same model + prompt)"
+  },
+  "panel_rp_ensemble_live_t4_economics": {
+   "base_lane": "rp_ensemble_live",
+   "display_name": null,
+   "model": null,
+   "roster_type": "llm",
+   "rows_total": 5,
+   "spaces": [
+    "Polymarket"
+   ],
+   "note": "horizon/category-tagged twin of base_lane (same model + prompt)"
+  },
+  "panel_rp_ensemble_live_t4_entertainment": {
+   "base_lane": "rp_ensemble_live",
+   "display_name": null,
+   "model": null,
+   "roster_type": "llm",
+   "rows_total": 5,
+   "spaces": [
+    "Polymarket"
+   ],
+   "note": "horizon/category-tagged twin of base_lane (same model + prompt)"
+  },
+  "panel_rp_ensemble_live_t4_international": {
+   "base_lane": "rp_ensemble_live",
+   "display_name": null,
+   "model": null,
+   "roster_type": "llm",
+   "rows_total": 5,
+   "spaces": [
+    "Polymarket"
+   ],
+   "note": "horizon/category-tagged twin of base_lane (same model + prompt)"
+  },
+  "panel_rp_ensemble_live_t4_politics": {
+   "base_lane": "rp_ensemble_live",
+   "display_name": null,
+   "model": null,
+   "roster_type": "llm",
+   "rows_total": 5,
+   "spaces": [
+    "Polymarket"
+   ],
+   "note": "horizon/category-tagged twin of base_lane (same model + prompt)"
+  },
+  "panel_rp_ensemble_live_t4_sports": {
+   "base_lane": "rp_ensemble_live",
+   "display_name": null,
+   "model": null,
+   "roster_type": "llm",
+   "rows_total": 5,
+   "spaces": [
+    "Polymarket"
+   ],
+   "note": "horizon/category-tagged twin of base_lane (same model + prompt)"
+  },
+  "panel_rp_ensemble_live_t4_technology": {
+   "base_lane": "rp_ensemble_live",
+   "display_name": null,
+   "model": null,
+   "roster_type": "llm",
+   "rows_total": 5,
+   "spaces": [
+    "Polymarket"
+   ],
+   "note": "horizon/category-tagged twin of base_lane (same model + prompt)"
+  },
+  "panel_sooth_agent_quick": {
+   "base_lane": "sooth_agent_quick",
+   "display_name": "Sooth Snap",
+   "model": null,
+   "roster_type": "sooth_agent",
+   "rows_total": 11959,
+   "spaces": [
+    "Kalshi",
+    "Polymarket",
+    "Sooth_QGen",
+    "Sooth_QGen_Calendar",
+    "Sooth_QGen_Calendar_v2",
+    "Sooth_QGen_v2"
+   ]
+  },
+  "panel_sooth_agent_quick_w2": {
+   "base_lane": "sooth_agent_quick_w2",
+   "display_name": null,
+   "model": null,
+   "roster_type": "llm",
+   "rows_total": 2,
+   "spaces": [
+    "Sooth_QGen"
+   ],
+   "note": "wave-2 deliberation twin (sees wave-1 forecasts)"
+  },
+  "panel_sooth_big_router": {
+   "base_lane": "sooth_big_router",
+   "display_name": "Sooth Big Router",
+   "model": null,
+   "roster_type": "sooth_big_router",
+   "rows_total": 4543,
+   "spaces": [
+    "Kalshi",
+    "Polymarket",
+    "Sooth_QGen"
+   ]
+  },
+  "panel_sooth_big_router_crowd": {
+   "base_lane": "sooth_big_router_crowd",
+   "display_name": null,
+   "model": null,
+   "roster_type": "llm",
+   "rows_total": 3483,
+   "spaces": [
+    "Kalshi",
+    "Polymarket",
+    "Sooth_QGen"
+   ]
+  },
+  "panel_sooth_continual_blend": {
+   "base_lane": "sooth_continual_blend",
+   "display_name": "Sooth Continual Blender",
+   "model": null,
+   "roster_type": "sooth_continual_blend",
+   "rows_total": 29718,
+   "spaces": [
+    "Kalshi",
+    "Polymarket",
+    "Sooth_QGen",
+    "Sooth_QGen_Calendar"
+   ]
+  },
+  "panel_sooth_continual_blend_bf_best10": {
+   "base_lane": "sooth_continual_blend_bf_best10",
+   "display_name": null,
+   "model": null,
+   "roster_type": "llm",
+   "rows_total": 42761,
+   "spaces": [
+    "Kalshi",
+    "Polymarket",
+    "Sooth_QGen",
+    "Sooth_QGen_Calendar"
+   ]
+  },
+  "panel_sooth_continual_blend_bf_best11": {
+   "base_lane": "sooth_continual_blend_bf_best11",
+   "display_name": null,
+   "model": null,
+   "roster_type": "llm",
+   "rows_total": 42526,
+   "spaces": [
+    "Kalshi",
+    "Polymarket",
+    "Sooth_QGen",
+    "Sooth_QGen_Calendar"
+   ]
+  },
+  "panel_sooth_continual_blend_bf_best12": {
+   "base_lane": "sooth_continual_blend_bf_best12",
+   "display_name": null,
+   "model": null,
+   "roster_type": "llm",
+   "rows_total": 42080,
+   "spaces": [
+    "Kalshi",
+    "Polymarket",
+    "Sooth_QGen",
+    "Sooth_QGen_Calendar"
+   ]
+  },
+  "panel_sooth_continual_blend_bf_best9": {
+   "base_lane": "sooth_continual_blend_bf_best9",
+   "display_name": null,
+   "model": null,
+   "roster_type": "llm",
+   "rows_total": 42987,
+   "spaces": [
+    "Kalshi",
+    "Polymarket",
+    "Sooth_QGen",
+    "Sooth_QGen_Calendar"
+   ]
+  },
+  "panel_sooth_continual_blend_bf_golden10": {
+   "base_lane": "sooth_continual_blend_bf_golden10",
+   "display_name": null,
+   "model": null,
+   "roster_type": "llm",
+   "rows_total": 41147,
+   "spaces": [
+    "Kalshi",
+    "Polymarket",
+    "Sooth_QGen",
+    "Sooth_QGen_Calendar"
+   ]
+  },
+  "panel_sooth_continual_blend_bf_golden12": {
+   "base_lane": "sooth_continual_blend_bf_golden12",
+   "display_name": null,
+   "model": null,
+   "roster_type": "llm",
+   "rows_total": 41152,
+   "spaces": [
+    "Kalshi",
+    "Polymarket",
+    "Sooth_QGen",
+    "Sooth_QGen_Calendar"
+   ]
+  },
+  "panel_sooth_continual_blend_cp": {
+   "base_lane": "sooth_continual_blend_cp",
+   "display_name": "Sooth Continual Blender (CP)",
+   "model": null,
+   "roster_type": "sooth_continual_blend",
+   "rows_total": 1028,
+   "spaces": [
+    "Kalshi",
+    "Polymarket",
+    "Sooth_QGen",
+    "Sooth_QGen_Calendar"
+   ]
+  },
+  "panel_sooth_continual_blend_golden": {
+   "base_lane": "sooth_continual_blend_golden",
+   "display_name": "Sooth Continual Golden Blender",
+   "model": null,
+   "roster_type": "sooth_continual_blend",
+   "rows_total": 1423,
+   "spaces": [
+    "Kalshi",
+    "Polymarket",
+    "Sooth_QGen",
+    "Sooth_QGen_Calendar"
+   ]
+  },
+  "panel_sooth_continual_blend_v1": {
+   "base_lane": "sooth_continual_blend_v1",
+   "display_name": "Sooth Continual Blender v1",
+   "model": null,
+   "roster_type": "sooth_continual_blend",
+   "rows_total": 25700,
+   "spaces": [
+    "Kalshi",
+    "Polymarket",
+    "Sooth_QGen"
+   ]
+  },
+  "panel_sooth_continual_blend_v1_cp": {
+   "base_lane": "sooth_continual_blend_v1_cp",
+   "display_name": "Sooth Continual Blender v1 (CP)",
+   "model": null,
+   "roster_type": "sooth_continual_blend",
+   "rows_total": 8543,
+   "spaces": [
+    "Kalshi",
+    "Polymarket",
+    "Sooth_QGen"
+   ]
+  },
+  "panel_sooth_continual_blend_v1_golden": {
+   "base_lane": "sooth_continual_blend_v1_golden",
+   "display_name": "Sooth Continual Golden Blender v1",
+   "model": null,
+   "roster_type": "sooth_continual_blend",
+   "rows_total": 25699,
+   "spaces": [
+    "Kalshi",
+    "Polymarket",
+    "Sooth_QGen"
+   ]
+  },
+  "panel_sooth_deep_harness": {
+   "base_lane": "sooth_deep_harness",
+   "display_name": null,
+   "model": null,
+   "roster_type": "llm",
+   "rows_total": 872,
+   "spaces": [
+    "Kalshi",
+    "Polymarket",
+    "Sooth_QGen"
+   ]
+  },
+  "panel_sooth_deeptrig_mw": {
+   "base_lane": "sooth_deeptrig_mw",
+   "display_name": null,
+   "model": null,
+   "roster_type": "llm",
+   "rows_total": 29,
+   "spaces": [
+    "Kalshi",
+    "Polymarket",
+    "Sooth_QGen"
+   ]
+  },
+  "panel_sooth_ds2_harness": {
+   "base_lane": "sooth_ds2_harness",
+   "display_name": null,
+   "model": null,
+   "roster_type": "llm",
+   "rows_total": 672,
+   "spaces": [
+    "Kalshi",
+    "Polymarket",
+    "Sooth_QGen"
+   ]
+  },
+  "panel_sooth_ds_harness": {
+   "base_lane": "sooth_ds_harness",
+   "display_name": null,
+   "model": null,
+   "roster_type": "llm",
+   "rows_total": 353,
+   "spaces": [
+    "Kalshi",
+    "Polymarket",
+    "Sooth_QGen"
+   ]
+  },
+  "panel_sooth_elenchus_v0": {
+   "base_lane": "sooth_elenchus_v0",
+   "display_name": "Sooth Elenchus",
+   "model": null,
+   "roster_type": "sooth_agent",
+   "rows_total": 5261,
+   "spaces": [
+    "Kalshi",
+    "Polymarket",
+    "Sooth_QGen"
+   ]
+  },
+  "panel_sooth_forecast_engine_offline_v0": {
+   "base_lane": "sooth_forecast_engine_offline_v0",
+   "display_name": "Sooth Forecast Engine (no web)",
+   "model": null,
+   "roster_type": "sooth_agent",
+   "rows_total": 27939,
+   "spaces": [
+    "Kalshi",
+    "Polymarket",
+    "Sooth_QGen"
+   ]
+  },
+  "panel_sooth_forecast_engine_offline_v0_1": {
+   "base_lane": "sooth_forecast_engine_offline_v0_1",
+   "display_name": "Sooth Forecast Engine (no web) v0.1",
+   "model": null,
+   "roster_type": "sooth_agent",
+   "rows_total": 43808,
+   "spaces": [
+    "Kalshi",
+    "Polymarket",
+    "Sooth_QGen",
+    "Sooth_QGen_Calendar"
+   ]
+  },
+  "panel_sooth_forecast_engine_v0": {
+   "base_lane": "sooth_forecast_engine_v0",
+   "display_name": "Sooth Forecast Engine",
+   "model": null,
+   "roster_type": "sooth_agent",
+   "rows_total": 41545,
+   "spaces": [
+    "Kalshi",
+    "Polymarket",
+    "Sooth_QGen",
+    "Sooth_QGen_Calendar"
+   ]
+  },
+  "panel_sooth_forecast_engine_v0_1": {
+   "base_lane": "sooth_forecast_engine_v0_1",
+   "display_name": "Sooth Forecast Engine v0.1",
+   "model": null,
+   "roster_type": "sooth_agent",
+   "rows_total": 38693,
+   "spaces": [
+    "Kalshi",
+    "Polymarket",
+    "Sooth_QGen",
+    "Sooth_QGen_Calendar"
+   ]
+  },
+  "panel_sooth_forecast_engine_v0_2": {
+   "base_lane": "sooth_forecast_engine_v0_2",
+   "display_name": "Sooth Forecast Engine v0.2",
+   "model": null,
+   "roster_type": "sooth_agent",
+   "rows_total": 13773,
+   "spaces": [
+    "Kalshi",
+    "Polymarket",
+    "Sooth_QGen",
+    "Sooth_QGen_v2"
+   ]
+  },
+  "panel_sooth_forecast_engine_v0_almanac": {
+   "base_lane": "sooth_forecast_engine_v0_almanac",
+   "display_name": "Sooth Almanac",
+   "model": null,
+   "roster_type": "sooth_agent",
+   "rows_total": 6292,
+   "spaces": [
+    "Kalshi",
+    "Polymarket",
+    "Sooth_QGen"
+   ]
+  },
+  "panel_sooth_forecast_engine_v0_almanac_noweb": {
+   "base_lane": "sooth_forecast_engine_v0_almanac_noweb",
+   "display_name": "Sooth Almanac (no web)",
+   "model": null,
+   "roster_type": "sooth_agent",
+   "rows_total": 6294,
+   "spaces": [
+    "Kalshi",
+    "Polymarket",
+    "Sooth_QGen"
+   ],
+   "note": "no-web-search ablation"
+  },
+  "panel_sooth_forecast_engine_v0_reasoning": {
+   "base_lane": "sooth_forecast_engine_v0_reasoning",
+   "display_name": "Sooth Forecast Engine (reasoning)",
+   "model": null,
+   "roster_type": "sooth_agent",
+   "rows_total": 3359,
+   "spaces": [
+    "Kalshi",
+    "Polymarket",
+    "Sooth_QGen"
+   ]
+  },
+  "panel_sooth_forecast_engine_v0_seeker": {
+   "base_lane": "sooth_forecast_engine_v0_seeker",
+   "display_name": "Sooth Tendril",
+   "model": null,
+   "roster_type": "sooth_agent",
+   "rows_total": 22325,
+   "spaces": [
+    "Kalshi",
+    "Polymarket",
+    "Sooth_QGen",
+    "Sooth_QGen_Calendar"
+   ]
+  },
+  "panel_sooth_forecast_engine_v1_seeker": {
+   "base_lane": "sooth_forecast_engine_v1_seeker",
+   "display_name": "Sooth Tendril v1",
+   "model": null,
+   "roster_type": "sooth_agent",
+   "rows_total": 7785,
+   "spaces": [
+    "Kalshi",
+    "Polymarket",
+    "Sooth_QGen",
+    "Sooth_QGen_Calendar"
+   ]
+  },
+  "panel_sooth_forecast_engine_v2_seeker": {
+   "base_lane": "sooth_forecast_engine_v2_seeker",
+   "display_name": "Sooth Tendril v2",
+   "model": null,
+   "roster_type": "sooth_agent",
+   "rows_total": 26334,
+   "spaces": [
+    "Kalshi",
+    "Polymarket",
+    "Sooth_QGen",
+    "Sooth_QGen_Calendar"
+   ]
+  },
+  "panel_sooth_mirabilis_v101": {
+   "base_lane": "sooth_mirabilis_v101",
+   "display_name": null,
+   "model": null,
+   "roster_type": "llm",
+   "rows_total": 784,
+   "spaces": [
+    "Kalshi",
+    "Polymarket",
+    "Sooth_QGen"
+   ]
+  },
+  "panel_sooth_mirabilis_v111": {
+   "base_lane": "sooth_mirabilis_v111",
+   "display_name": null,
+   "model": null,
+   "roster_type": "llm",
+   "rows_total": 887,
+   "spaces": [
+    "Kalshi",
+    "Polymarket",
+    "Sooth_QGen"
+   ]
+  },
+  "panel_sooth_mirabilis_v12": {
+   "base_lane": "sooth_mirabilis_v12",
+   "display_name": null,
+   "model": null,
+   "roster_type": "llm",
+   "rows_total": 1072,
+   "spaces": [
+    "Kalshi",
+    "Polymarket",
+    "Sooth_QGen"
+   ]
+  },
+  "panel_sooth_mirabilis_v14": {
+   "base_lane": "sooth_mirabilis_v14",
+   "display_name": null,
+   "model": null,
+   "roster_type": "llm",
+   "rows_total": 514,
+   "spaces": [
+    "Kalshi",
+    "Polymarket",
+    "Sooth_QGen"
+   ]
+  },
+  "panel_sooth_mirabilis_v15": {
+   "base_lane": "sooth_mirabilis_v15",
+   "display_name": null,
+   "model": null,
+   "roster_type": "llm",
+   "rows_total": 518,
+   "spaces": [
+    "Kalshi",
+    "Polymarket",
+    "Sooth_QGen"
+   ]
+  },
+  "panel_sooth_mirabilis_v16": {
+   "base_lane": "sooth_mirabilis_v16",
+   "display_name": null,
+   "model": null,
+   "roster_type": "llm",
+   "rows_total": 382,
+   "spaces": [
+    "Kalshi",
+    "Polymarket",
+    "Sooth_QGen"
+   ]
+  },
+  "panel_sooth_mirabilis_v17": {
+   "base_lane": "sooth_mirabilis_v17",
+   "display_name": null,
+   "model": null,
+   "roster_type": "llm",
+   "rows_total": 175,
+   "spaces": [
+    "Kalshi",
+    "Polymarket",
+    "Sooth_QGen"
+   ]
+  },
+  "panel_sooth_mirabilis_v18": {
+   "base_lane": "sooth_mirabilis_v18",
+   "display_name": null,
+   "model": null,
+   "roster_type": "llm",
+   "rows_total": 17,
+   "spaces": [
+    "Polymarket",
+    "Sooth_QGen"
+   ]
+  },
+  "panel_sooth_mirabilis_v3": {
+   "base_lane": "sooth_mirabilis_v3",
+   "display_name": null,
+   "model": null,
+   "roster_type": "llm",
+   "rows_total": 858,
+   "spaces": [
+    "Kalshi",
+    "Polymarket",
+    "Sooth_QGen"
+   ]
+  },
+  "panel_sooth_open_harness": {
+   "base_lane": "sooth_open_harness",
+   "display_name": null,
+   "model": null,
+   "roster_type": "llm",
+   "rows_total": 1917,
+   "spaces": [
+    "Kalshi",
+    "Polymarket",
+    "Sooth_QGen"
+   ]
+  },
+  "panel_sooth_reinforcer": {
+   "base_lane": "sooth_reinforcer",
+   "display_name": "Sooth Reinforcer",
+   "model": null,
+   "roster_type": "sooth_reinforcer",
+   "rows_total": 20810,
+   "spaces": [
+    "Kalshi",
+    "Polymarket",
+    "Sooth_QGen"
+   ]
+  },
+  "panel_sooth_tendril_mirabilis": {
+   "base_lane": "sooth_tendril_mirabilis",
+   "display_name": null,
+   "model": null,
+   "roster_type": "llm",
+   "rows_total": 26,
+   "spaces": [
+    "Polymarket",
+    "Sooth_QGen"
+   ]
+  },
+  "panel_v11_deep": {
+   "base_lane": "v11_deep",
+   "display_name": null,
+   "model": null,
+   "roster_type": "llm",
+   "rows_total": 26,
+   "spaces": [
+    "Kalshi",
+    "Polymarket",
+    "Sooth_QGen"
+   ]
+  },
+  "panel_v11_ds": {
+   "base_lane": "v11_ds",
+   "display_name": null,
+   "model": null,
+   "roster_type": "llm",
+   "rows_total": 686,
+   "spaces": [
+    "Kalshi",
+    "Polymarket",
+    "Sooth_QGen"
+   ]
+  },
+  "panel_v11_k": {
+   "base_lane": "v11_k",
+   "display_name": null,
+   "model": null,
+   "roster_type": "llm",
+   "rows_total": 1339,
+   "spaces": [
+    "Kalshi",
+    "Polymarket",
+    "Sooth_QGen"
+   ]
+  },
+  "panel_v21_ds": {
+   "base_lane": "v21_ds",
+   "display_name": null,
+   "model": null,
+   "roster_type": "llm",
+   "rows_total": 683,
+   "spaces": [
+    "Kalshi",
+    "Polymarket",
+    "Sooth_QGen"
+   ]
+  },
+  "panel_v21_k": {
+   "base_lane": "v21_k",
+   "display_name": null,
+   "model": null,
+   "roster_type": "llm",
+   "rows_total": 1341,
+   "spaces": [
+    "Kalshi",
+    "Polymarket",
+    "Sooth_QGen"
+   ]
+  }
+ }
+}

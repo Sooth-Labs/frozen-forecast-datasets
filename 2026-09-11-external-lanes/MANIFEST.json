@@ -1,0 +1,73 @@
+{
+ "snapshot": "2026-09-11",
+ "snapshot_utc": "2026-09-11T19:05:00Z",
+ "source": {
+  "project": "data-ingestion-v1",
+  "instance": "sooth-events-database",
+  "tables": [
+   "forecast_reports_v2",
+   "forecast_questions_v2"
+  ],
+  "pool_resolved": "gs://sooth-panel/pool_v2_resolved.jsonl"
+ },
+ "spaces": [
+  "Kalshi",
+  "Polymarket",
+  "Sooth_QGen",
+  "Sooth_QGen_v2",
+  "qgen",
+  "Sooth_QGen_Calendar",
+  "Sooth_QGen_Calendar_v2"
+ ],
+ "counts": {
+  "clean": {
+   "questions": 32656,
+   "rows": 644506,
+   "fires": 76904,
+   "base_models": 38,
+   "lane_keys": 210
+  },
+  "resolved_raw": {
+   "questions": 34348,
+   "rows": 728870,
+   "fires": 90047
+  },
+  "all": {
+   "questions": 67710,
+   "rows": 1001492,
+   "fires": 138971,
+   "base_models": 39,
+   "lane_keys": 211
+  },
+  "internal_rows_excluded": 697449
+ },
+ "files": {
+  "count_printout.txt": {
+   "sha256": "e6189249e2c8e262825cb497223b5bf0a5d90390d31db7b8c99fb0d605813e97",
+   "bytes": 12495
+  },
+  "forecast_rows_all.tsv.gz": {
+   "sha256": "6cdf1499c99f9c939377f05d8a929dc3ca8624ca84f902185f3c600d15289f8c",
+   "bytes": 10426536,
+   "lines": 1001492
+  },
+  "forecast_rows_clean.tsv.gz": {
+   "sha256": "1b8c201744f956f4782e1d57960532e9382bb0ca74091bd470752e46d368744b",
+   "bytes": 6514887,
+   "lines": 644506
+  },
+  "lane_space_counts.json": {
+   "sha256": "8b5b983dffcebda2edd0d03e54edc17ae9b6def9216ef6a071b018a71ee0c67e",
+   "bytes": 28267
+  },
+  "lanes.json": {
+   "sha256": "cfc2cad93dbd8cea9e0f2c0cea980c81d653b593c15bd320fb25787bbfd69efd",
+   "bytes": 98024
+  },
+  "questions.jsonl.gz": {
+   "sha256": "5f2a9925e9c9f51f6684af8d02c5e0238cc0f10d970fe9e8d58fb4a74de17b3e",
+   "bytes": 7150512,
+   "lines": 67586
+  }
+ }
+}
