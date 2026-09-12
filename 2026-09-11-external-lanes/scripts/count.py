@@ -19,13 +19,19 @@ pool_res={}
 for l in open(f"{SC}/pool_v2_resolved.jsonl"):
     if l.strip():
         e=json.loads(l); pool_res[e["_key"]]=e
-# Questions removed from the snapshot (revision 2): QGen questions that forecast a Kalshi/Polymarket price
-# ("Will the Kalshi YES mid-market price for X land in the 80-90c bucket", "... YES price be >= 20c at ...").
-EXCL_Q=set()
-try:
-    with open(f"{SC}/../data/excluded_market_derivative_questions.tsv") as fh:
-        next(fh); EXCL_Q={l.split("\t",1)[0] for l in fh if l.strip()}
-except FileNotFoundError: pass
+# Rule (revision 2): a Sooth-generated question whose text names Kalshi or Polymarket is a forecast of a venue
+# PRICE ("Will the Kalshi YES mid-market price for X land in the 80-90c bucket"), not of a world event. Such
+# questions are excluded from the dataset by construction; the keys/text are written to ../provenance/ for audit.
+import re
+MARKET_DERIVATIVE=re.compile(r"kalshi|polymarket",re.I)
+GEN_SPACES={"Sooth_QGen","Sooth_QGen_v2","qgen","Sooth_QGen_Calendar","Sooth_QGen_Calendar_v2"}
+EXCL_Q={q for q,m in meta.items() if q.split("#",1)[0] in GEN_SPACES and MARKET_DERIVATIVE.search(m.get("Question") or "")}
+import os; os.makedirs(f"{SC}/../provenance",exist_ok=True)
+with open(f"{SC}/../provenance/excluded_market_derivative_questions.tsv","w") as fh:
+    fh.write("question_key\tquestion\n")
+    for q in sorted(EXCL_Q): fh.write(f"{q}\t{(meta[q].get('Question') or '').replace(chr(9),' ').replace(chr(10),' ')}\n")
+# also drop them from the question table that ships with the dataset
+for q in EXCL_Q: meta.pop(q,None)
 rows=[]; int_rows=collections.Counter(); ext_lanes=collections.Counter(); int_lanes=collections.Counter(); excl_rows=0
 for line in open(f"{SC}/all_rows.tsv"):
     lane,ts,q=line.rstrip("\n").split("\t",2)

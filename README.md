@@ -20,6 +20,12 @@ python hydrate.py --rows ../data/forecast_rows_all.tsv.gz --out forecasts_all.pa
 python hydrate.py --rows ../data/forecast_rows_clean.tsv.gz --out sample.parquet --limit 5000 --content   # with explanations
 ```
 
+## Verifying a checkout
+
+```bash
+python 2026-09-11-external-lanes/scripts/verify.py   # checksums + no excluded question present → OK
+```
+
 ## Adding a snapshot
 
 Copy the previous snapshot's `scripts/`, change the definition in its `lanes.py` / `count.py`, run `dump_all_rows.py` → `fetch_meta_all.py` → `count.py`, and commit the resulting `data/` with a `README.md` data card and `MANIFEST.json` (sha256 of every data file). Never edit a published snapshot's data files; add a new dated directory instead.

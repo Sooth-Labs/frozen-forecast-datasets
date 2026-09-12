@@ -11,7 +11,7 @@ Snapshot of `forecast_reports_v2` / `forecast_questions_v2` taken **2026-09-11 ~
 5. **Clean step 1**: drop every question whose resolve timestamp (`Resolve Date` → `Sooth_Resolved_At` → pool `resolved_at`) precedes our first forecast on it.
 6. **Clean step 2**: drop every row fired at or after the question's `End Date` or its resolve timestamp.
 7. **Multi-outcome** = question meta `Outcome Kind` present (`categorical` or `numeric`). Calendar multiway questions use plain keys, not `#f_`; the key prefix alone undercounts them.
-8. **Removed (rev 2)**: 5,518 QGen questions whose text names Kalshi or Polymarket — all of the form *"Will the Kalshi YES mid-market price for X land in the 80–90¢ bucket at game start"* / *"… YES price be ≥ 20¢ at …"*. They forecast a venue price, not a world event. Keys + text in `data/excluded_market_derivative_questions.tsv`; `count.py` reads that file. 71,456 external-lane rows went with them.
+8. **Removed (rev 2)**: 5,518 QGen questions whose text names Kalshi or Polymarket — all of the form *"Will the Kalshi YES mid-market price for X land in the 80–90¢ bucket at game start"* / *"… YES price be ≥ 20¢ at …"*. They forecast a venue price, not a world event. The exclusion is a **rule in `count.py`** (generated question whose text matches `kalshi|polymarket`), so a rebuild drops them by construction; the keys + text are written to `provenance/excluded_market_derivative_questions.tsv` for audit only — nothing under `data/` contains them. 71,456 external-lane rows went with them. `python scripts/verify.py` checks this on any checkout.
 
 ## Counts
 
@@ -45,12 +45,13 @@ Cleaning removed 1,267 leak-suspect questions (12,845 rows) and 69,207 late rows
 | `lane_space_counts.json` | | every lane × space row count from the full `panel_` scan (1,736,425 rows incl. `User#`) |
 | `count_printout.txt` | | full output of `count.py` incl. the external / internal lane lists |
 | `values/forecasts_clean_{Kalshi,Polymarket,Sooth_QGen,Sooth_QGen_Calendar}.parquet` | 590,932 | hydrated values for the cleaned set (see below) |
-| `excluded_market_derivative_questions.tsv` | 5,518 | QGen questions removed in rev 2 (key, text) |
 | `MANIFEST.json` | | snapshot timestamp, revision log, counts, sha256 of each data file |
 
 `data/values/` — **the hydrated values for the cleaned set, one parquet per space** (`forecasts_clean_<space>.parquet`, 590,932 rows, 42 MB total, produced by `hydrate.py` at snapshot time). Columns are the values-only hydrate output listed below; no explanation text. Load with `pd.read_parquet("data/values")` (pandas reads the directory). **9,303 rows (1.6%) have no forecast** — `prediction` and `forecast_value` both null: the model call failed and the panel wrote an empty row (mostly Qwen 3.5+ and DeepSeek V4 Pro, May–June 2026). Filter with `forecast_value.notna()` for scoring; the key lists keep them so counts match the store.
 
-`scripts/` — `hydrate.py` (pull full rows for any key list → parquet / jsonl.gz), and the rebuild recipe `dump_all_rows.py` → `fetch_meta_all.py` → `count.py` (`lanes.py` = the lane rule; expects `pool_v2_resolved.jsonl` from `gs://sooth-panel/` in the working dir; ~5 min total).
+`provenance/excluded_market_derivative_questions.tsv` — the 5,518 removed questions (key, text), for audit; not part of the dataset.
+
+`scripts/` — `verify.py` (checksums + proves no excluded question is present), `hydrate.py` (pull full rows for any key list → parquet / jsonl.gz), and the rebuild recipe `dump_all_rows.py` → `fetch_meta_all.py` → `count.py` (`lanes.py` = the lane rule; expects `pool_v2_resolved.jsonl` from `gs://sooth-panel/` in the working dir; ~5 min total).
 
 ## Hydrating
 

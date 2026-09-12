@@ -51,10 +51,6 @@
    "sha256": "929a9cf11ef95aa3f1a967cb5ba8a22f056dc6941c8aea0a1ee812cba458f0a7",
    "bytes": 12576
   },
-  "excluded_market_derivative_questions.tsv": {
-   "sha256": "5b279e2aa99ff9532b8b54ca920c3c3759384801f1794cb0403d3fa5b138b5ed",
-   "bytes": 868053
-  },
   "forecast_rows_all.tsv.gz": {
    "sha256": "27d6406a0c837fbcbfac2c990013a3c501b9928196189d404d61df431c5663c5",
    "bytes": 9685381,
@@ -111,7 +107,7 @@
   {
    "rev": 2,
    "utc": "2026-09-12T02:10:00Z",
-   "note": "removed 5,518 QGen questions that forecast a Kalshi/Polymarket price (text matches kalshi|polymarket) and their 71,456 external-lane rows; list in data/excluded_market_derivative_questions.tsv"
+   "note": "removed 5,518 QGen questions that forecast a Kalshi/Polymarket price (rule in count.py: generated question text matches kalshi|polymarket) and their 71,456 external-lane rows; list in provenance/excluded_market_derivative_questions.tsv"
   }
  ]
 }
