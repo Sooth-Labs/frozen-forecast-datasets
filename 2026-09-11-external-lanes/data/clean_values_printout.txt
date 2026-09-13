@@ -1,0 +1,16 @@
+input: 590,932 rows / 27,430 questions
+1. rows without a forecast dropped: 9,303 {'Kalshi': 3706, 'Polymarket': 3442, 'QGen': 2127, 'Calendar': 28}
+2. unscoreable questions dropped: 258 q / 7,620 rows; by reason {('scalar/none', 'Kalshi'): 88, ('scalar/none', 'Polymarket'): 91, ('void_multiway', 'Kalshi'): 23, ('voided', 'Polymarket'): 56}
+3. gaussian rows projected to PMF: 322 on 18 lane×space; unprojectable dropped: 0
+   by lane: {'kimi_k3': 75, 'gpt_5_6_luna': 72, 'gemini_3_7_flash': 58, 'claude_sonnet_5': 20, 'gemini': 20, 'gemini_3_6_flash': 20, 'gpt_5_6': 19, 'gpt_5_5': 17, 'grok_4_5': 12, 'grok_4_6': 9}
+4. inconsistent multiway questions dropped: 33 q / 865 rows {'Kalshi': 33}; reasons {'outcome_index': 18, 'outcome_space_varies': 15}
+
+== REV 3 CLEAN: 27,139 q / 573,144 rows / 70,059 fires / 38 base models (206 lane keys)
+   Kalshi       12,102 q (10,418 binary / 1,684 multi-outcome)   234,378 rows  26,052 fires   YES/NO 5,655/4,763
+   Polymarket    7,681 q (7,659 binary / 22 multi-outcome)   203,986 rows  24,368 fires   YES/NO 2,734/4,925
+   QGen          3,885 q (3,877 binary / 8 multi-outcome)   114,509 rows  13,250 fires   YES/NO 1,627/2,250
+   Calendar      3,471 q (2,215 binary / 1,256 multi-outcome)    20,271 rows   6,389 fires   YES/NO 1,077/1,138
+   fire range 20260329_001230 → 20260911_181747
+   rows without forecast: 0; non-pmf forms: 0; submitted_form: {'pmf': 572822, 'gaussian': 322}
+
+wrote data/values/*.parquet (573,144 rows) and data/forecast_rows_clean.tsv.gz; provenance/unscoreable_questions.tsv (258), provenance/inconsistent_multiway_questions.tsv (33)

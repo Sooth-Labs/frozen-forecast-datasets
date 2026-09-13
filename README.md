@@ -4,7 +4,7 @@ Frozen, reproducible snapshots of Sooth's panel forecast data, published as **re
 
 | Snapshot | Scope | Questions | Forecast rows |
 |---|---|---|---|
-| [`2026-09-11-external-lanes/`](2026-09-11-external-lanes/) | Kalshi + Polymarket + Sooth_QGen + QGen Calendar × external models only (no Sooth-internal lanes, no QGen questions about venue prices); resolved + leakage-cleaned | 27,430 | 590,932 |
+| [`2026-09-11-external-lanes/`](2026-09-11-external-lanes/) (rev 3) | Kalshi + Polymarket + Sooth_QGen + QGen Calendar × external models only (no Sooth-internal lanes, no QGen questions about venue prices); resolved + leakage-cleaned; every question has a 0/1 or in-range multiway label and every row a PMF | 27,139 | 573,144 |
 
 ## Access
 
@@ -23,11 +23,11 @@ python hydrate.py --rows ../data/forecast_rows_clean.tsv.gz --out sample.parquet
 ## Verifying a checkout
 
 ```bash
-python 2026-09-11-external-lanes/scripts/verify.py   # checksums + no excluded question present → OK
+python 2026-09-11-external-lanes/scripts/verify.py   # checksums + no excluded question + every row scoreable → OK
 ```
 
 ## Adding a snapshot
 
-Copy the previous snapshot's `scripts/`, change the definition in its `lanes.py` / `count.py`, run `dump_all_rows.py` → `fetch_meta_all.py` → `count.py`, and commit the resulting `data/` with a `README.md` data card and `MANIFEST.json` (sha256 of every data file). Never edit a published snapshot's data files; add a new dated directory instead.
+Copy the previous snapshot's `scripts/`, change the definition in its `lanes.py` / `count.py`, run `dump_all_rows.py` → `fetch_meta_all.py` → `count.py`, hydrate the values, run `clean_values.py`, and commit the resulting `data/` with a `README.md` data card and `MANIFEST.json` (`manifest.py` writes the checksums and counts). A change of definition gets a new dated directory. A revision that only removes or normalizes rows of an existing snapshot (as revisions 2 and 3 did) stays in place and is recorded in that snapshot's `MANIFEST.json` revision log and README, so earlier counts remain quotable.
 
 Internal to Sooth Labs. Kalshi and Polymarket question text and prices are venue data; do not redistribute outside the company without checking their terms.

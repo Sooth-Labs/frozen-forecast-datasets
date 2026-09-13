@@ -21,12 +21,12 @@
  ],
  "counts": {
   "clean": {
-   "questions": 27430,
-   "rows": 590932,
-   "fires": 71631,
+   "questions": 27139,
+   "rows": 573144,
+   "fires": 70059,
    "base_models": 38,
-   "lane_keys": 210,
-   "rows_without_forecast": 9303
+   "lane_keys": 206,
+   "rows_without_forecast": 0
   },
   "resolved_raw": {
    "questions": 29122,
@@ -47,9 +47,15 @@
   }
  },
  "files": {
+  "clean_values_printout.txt": {
+   "sha256": "9f139b60873d429ca015886ef9699fe95e71fa49a7622933c9b156272756244c",
+   "bytes": 1607,
+   "lines": 16
+  },
   "count_printout.txt": {
    "sha256": "929a9cf11ef95aa3f1a967cb5ba8a22f056dc6941c8aea0a1ee812cba458f0a7",
-   "bytes": 12576
+   "bytes": 12576,
+   "lines": 36
   },
   "forecast_rows_all.tsv.gz": {
    "sha256": "27d6406a0c837fbcbfac2c990013a3c501b9928196189d404d61df431c5663c5",
@@ -57,9 +63,9 @@
    "lines": 940439
   },
   "forecast_rows_clean.tsv.gz": {
-   "sha256": "4daf3c4c9d18c88076c93e49e618a424dd9146ac245d114fc50755d505ae640c",
-   "bytes": 5868402,
-   "lines": 590932
+   "sha256": "6f2c63730b4f37c9de10f4cd6d483a1aad6b521bb33b307b98519f90854d2695",
+   "bytes": 5141999,
+   "lines": 573144
   },
   "lane_space_counts.json": {
    "sha256": "8b5b983dffcebda2edd0d03e54edc17ae9b6def9216ef6a071b018a71ee0c67e",
@@ -75,29 +81,29 @@
    "lines": 62068
   },
   "values/forecasts_clean_Kalshi.parquet": {
-   "sha256": "7242bbafd8c30c845962381db222434e160c8499836b78e8d0b6c74044cc473a",
-   "bytes": 18415101
+   "sha256": "cce48a757225bfa607a083aaccb99a0cd4a808a677e9fb510560cfdf076b85a6",
+   "bytes": 17881079
   },
   "values/forecasts_clean_Polymarket.parquet": {
-   "sha256": "3ba153e7edd57bee58f2b3ec48fd13a34e5616a66dc035a191bf1a0a0380bf06",
-   "bytes": 12463536
+   "sha256": "6abdb943d8e37e344634a4056050e687ad882ba081b10f008e60d539f98e8edf",
+   "bytes": 12256465
   },
   "values/forecasts_clean_Sooth_QGen.parquet": {
-   "sha256": "fa53096c16a84c9a0b425d2001c5e4dc3c76717a8cee635945458255c2e9c35a",
-   "bytes": 8067932
+   "sha256": "cab229ed5be7b035d96226bbf84736f6b6ef220de73ff0f25a751bcdc84352c6",
+   "bytes": 8022075
   },
   "values/forecasts_clean_Sooth_QGen_Calendar.parquet": {
-   "sha256": "449000c146af3e6c9b6410a1e552db377a9cd514d7a256dec9481b43831687de",
-   "bytes": 3389411
+   "sha256": "29f9b9d8b31596ff28611b6cf43b94815296dae4ad11d8cc04cda40c1d5b6663",
+   "bytes": 3396874
   }
  },
  "values": {
   "source": "scripts/hydrate.py --rows data/forecast_rows_clean.tsv.gz (values only, no --content)",
   "hydrated_utc": "2026-09-12T00:16:00Z",
-  "rows": 590932
+  "rows": 573144
  },
- "revision": 2,
- "revision_utc": "2026-09-12T02:10:00Z",
+ "revision": 3,
+ "revision_utc": "2026-09-13T05:24:00Z",
  "revisions": [
   {
    "rev": 1,
@@ -108,6 +114,11 @@
    "rev": 2,
    "utc": "2026-09-12T02:10:00Z",
    "note": "removed 5,518 QGen questions that forecast a Kalshi/Polymarket price (rule in count.py: generated question text matches kalshi|polymarket) and their 71,456 external-lane rows; list in provenance/excluded_market_derivative_questions.tsv"
+  },
+  {
+   "rev": 3,
+   "utc": "2026-09-13T05:24:00Z",
+   "note": "value-level cleaning (scripts/clean_values.py): dropped 9,303 rows without a forecast, 258 unscoreable questions (7,620 rows; voided / Resolution=scalar / no recorded resolution / void multiway), 33 Kalshi multiway families whose outcome space changed mid-life or whose Outcome Index lies outside the PMF (865 rows); projected 322 gaussian rows to PMFs (submitted_form column + submitted_representation kept). Lists in provenance/. forecast_rows_all.tsv.gz and questions.jsonl.gz unchanged."
   }
  ]
 }
